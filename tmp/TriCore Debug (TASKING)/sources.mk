@@ -29,9 +29,6 @@ Configurations/Debug \
 Libraries/Infra/Platform/Tricore/Compilers \
 Libraries/Service/CpuGeneric/StdIf \
 Libraries/Service/CpuGeneric/SysSe/Bsp \
-Libraries/Service/CpuGeneric/SysSe/Comm \
-Libraries/iLLD/TC27D/Tricore/Asclin/Asc \
-Libraries/iLLD/TC27D/Tricore/Asclin/Std \
 Libraries/iLLD/TC27D/Tricore/Cpu/CStart \
 Libraries/iLLD/TC27D/Tricore/Cpu/Irq \
 Libraries/iLLD/TC27D/Tricore/Cpu/Std \
@@ -45,8 +42,9 @@ Libraries/iLLD/TC27D/Tricore/Scu/Std \
 Libraries/iLLD/TC27D/Tricore/Src/Std \
 Libraries/iLLD/TC27D/Tricore/Stm/Std \
 Libraries/iLLD/TC27D/Tricore/_Impl \
-Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling \
 Libraries/iLLD/TC27D/Tricore/_PinMap \
+encoder \
+gpio \
 motor \
 pwmHl \
 scheduler \

@@ -3,6 +3,6 @@ Connected to device... [TRICORE] DAS JTAG SHIELDBUDDY TC275
 ::Loading HEX file .......... (Pass)
 ::Erasing Flash memory .......... (Pass)
 ::Programming Flash memory .......... (Pass)
-Overall time: 1418 ms
+Overall time: 1424 ms
 AURIXFlasher Exit Status: Pass
 Flashing was successfull

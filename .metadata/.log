@@ -137,3 +137,15 @@ Caused by: java.net.MalformedURLException: no protocol:
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-05-09 16:01:16.525
 !MESSAGE Indexed 'tmp' (90 sources, 481 headers) in 34.5 sec: 110,610 declarations; 71,933 references; 10 unresolved inclusions; 2,640 syntax errors; 5,526 unresolved names (2.9%)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-09 16:08:47.207
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 1744 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-09 16:08:47.314
+!MESSAGE Include paths were discovered in 102 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-09 16:09:02.156
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 1296 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-09 16:09:02.276
+!MESSAGE Include paths were discovered in 117 milliseconds.
