@@ -13,7 +13,7 @@
 #define V_PER_RPS   1 / RPS_PER_V
 #define PI          3.141592f
 #define T_S         0.001f
-#define W_SS        100 * 2 * PI
+#define W_SS        120 * PI
 #define MS_PER_SEC  1000
 
 typedef struct
@@ -29,8 +29,8 @@ static void Task100ms(void);
 
 TestCnt stTestCnt;
 
-const float32 Kp = 0.08;
-const float32 Ki = 0.05;
+const float32 Kp = 1;
+const float32 Ki = 10;
 
 float32 w;
 float32 w_ref;
@@ -51,7 +51,7 @@ static void Task1ms(void)
     }
     else if (stTestCnt.cnt_1ms < 10000)
     {
-        w_ref = W_SS / 5 * (((float32)stTestCnt.cnt_1ms / 1000) - 5);
+        w_ref = W_SS / 15 * (((float32)stTestCnt.cnt_1ms / 1000) - 4);
     }
     else if (stTestCnt.cnt_1ms < 15000)
     {
@@ -59,45 +59,48 @@ static void Task1ms(void)
     }
     else if (stTestCnt.cnt_1ms < 20000)
     {
-        w_ref = W_SS / 5 * (20 - ((float32)stTestCnt.cnt_1ms / 1000));
+        w_ref = W_SS / 15 * (41 - ((float32)stTestCnt.cnt_1ms / 1000));
     }
-//    if (w_ref > 0)
-//    {
-////        w_lpf = lowPassFilter(w_ref);
-//
-//        cur_theta = getEncoderPos();
-//        w = (cur_theta - prev_theta) * 1000;
-//        prev_theta = cur_theta;
-//
-////        w_err = w_lpf - w;
-//
-//        w_err = w_ref - w;
-//
-//        int_w_err += w_err * 0.001;
-//        if (int_w_err > 10)
-//        {
-//            int_w_err = 10;
-//        }
-//
-//        v_in = (Kp * w_err);
-//    }
-//    else
-//    {
-//        v_in = 0;
-//    }
-//
-//    if (v_in > 11)
-//    {
-//        v_in = 11;
-//    }
-//    else if (v_in < 0)
-//    {
-//        v_in = 0;
-//    }
+    if (w_ref > 0)
+    {
+//        w_lpf = lowPassFilter(w_ref);
+
+        cur_theta = getEncoderPos();
+        w = (cur_theta - prev_theta) * 1000;
+        prev_theta = cur_theta;
+
+//        w_err = w_lpf - w;
+
+        w_err = w_ref - w;
+
+        int_w_err += w_err * 0.001;
+        if (int_w_err > 10)
+        {
+            int_w_err = 10;
+        }
+        if (int_w_err < -10)
+        {
+            int_w_err = -10;
+        }
+
+        v_in = (Kp * w_err) + (Ki * int_w_err);
+    }
+    else
+    {
+        v_in = 0;
+    }
+
+    if (v_in > 12)
+    {
+        v_in = 12;
+    }
+    else if (v_in < 0)
+    {
+        v_in = 0;
+    }
 
 
-
-    setMotorPower(w_ref / RPS_MAX);
+    setMotorPower(v_in / V_MAX);
 }
 
 static void Task10ms(void)
