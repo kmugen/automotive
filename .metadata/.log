@@ -149,3 +149,15 @@ Caused by: java.net.MalformedURLException: no protocol:
 
 !ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-09 16:09:02.276
 !MESSAGE Include paths were discovered in 117 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-09 16:11:05.013
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 1775 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-09 16:11:05.123
+!MESSAGE Include paths were discovered in 82 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-09 16:12:56.148
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 2100 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-09 16:12:56.247
+!MESSAGE Include paths were discovered in 97 milliseconds.

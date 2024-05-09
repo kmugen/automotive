@@ -5,7 +5,6 @@
 #include "IfxPort_PinMap.h"
 
 #include "motor.h"
-#include "encoder.h"
 
 #define RPS_MAX     654.32f
 #define V_MAX       12
@@ -65,9 +64,9 @@ static void Task1ms(void)
 //    {
 ////        w_lpf = lowPassFilter(w_ref);
 //
-        cur_theta = getEncoderPos();
-        w = (cur_theta - prev_theta) * 1000;
-        prev_theta = cur_theta;
+//        cur_theta = getEncoderPos();
+//        w = (cur_theta - prev_theta) * 1000;
+//        prev_theta = cur_theta;
 //
 ////        w_err = w_lpf - w;
 //

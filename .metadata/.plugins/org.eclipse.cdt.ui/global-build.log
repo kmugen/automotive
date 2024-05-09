@@ -2492,3 +2492,79 @@ Connected to device... [TRICORE] DAS JTAG SHIELDBUDDY TC275
 Overall time: 1424 ms
 AURIXFlasher Exit Status: Pass
 Flashing was successfull
+Build started...
+16:11:05 **** Incremental Build of configuration TriCore Debug (TASKING) for project tmp ****
+make --output-sync -j12 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building file: ../Cpu0_Main.c
+Invoking: TASKING C/C++ Compiler
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/myTC275/automotive/tmp/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c" && \
+if [ -f "Cpu0_Main.d" ]; then sed.exe -r  -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "Cpu0_Main.d" > "Cpu0_Main.d_sed" && cp "Cpu0_Main.d_sed" "Cpu0_Main.d" && rm -f "Cpu0_Main.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../Cpu0_Main.c
+ 
+Building file: Cpu0_Main.src
+Invoking: TASKING Assembler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Finished building: Cpu0_Main.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+Building target: tmp.elf
+Invoking: TASKING Linker
+cctc --lsl-file="../Lcf_Tasking_Tricore_Tc.lsl" -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="tmp.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --fp-model=3 -lrt --lsl-core=vtc --exceptions --strict --anachronisms --force-c++ -Ctc27xd -o"tmp.elf" -Wl-o"tmp.hex:IHEX"  ./scheduler/AppScheduling.o ./scheduler/driver_stm.o  ./pwmHl/pwmHl.o  ./motor/motor.o  ./gpio/gpio.o  ./encoder/encoder.o  ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.o  ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.o  ./Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.o  ./Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.o  ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.o ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.o ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.o  ./Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.o  ./Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.o  ./Libraries/iLLD/TC27D/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.o  ./Libraries/iLLD/TC27D/Tricore/Gtm/Tom/PwmHl/IfxGtm_Tom_PwmHl.o  ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.o ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.o ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.o  ./Libraries/Service/CpuGeneric/SysSe/Bsp/Assert.o ./Libraries/Service/CpuGeneric/SysSe/Bsp/Bsp.o  ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.o  ./Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.o  ./Configurations/Debug/sync_on_halt.o  ./Cpu0_Main.o ./Cpu1_Main.o ./Cpu2_Main.o 
+Finished building target: tmp.elf
+ 
+Invoking: Print Size
+elfsize  "tmp.elf"
+Total sizes:
+ROM: 0x4553 (17747) = code: 0x424c (16972) + romdata: 0x307 (775)
+RAM: 0x95f2 (38386) = data + bss
+Finished building: tmp.siz
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): ELF size v1.1r8 Build 22011964
+AURIX Flasher Software Tool 1.0.8.0, built on 2023-07-07 오후 11:18:22
+Connected to device... [TRICORE] DAS JTAG SHIELDBUDDY TC275
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .......... (Pass)
+Overall time: 1299 ms
+AURIXFlasher Exit Status: Pass
+Flashing was successfull
+Build started...
+16:12:57 **** Incremental Build of configuration TriCore Debug (TASKING) for project tmp ****
+make --output-sync -j12 all 
+Building file: ../scheduler/AppScheduling.c
+Invoking: TASKING C/C++ Compiler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+cctc -cs --dep-file="scheduler/AppScheduling.d" --misrac-version=2004 -D__CPU__=tc27xd "-fC:/myTC275/automotive/tmp/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "scheduler/AppScheduling.src" "../scheduler/AppScheduling.c" && \
+if [ -f "scheduler/AppScheduling.d" ]; then sed.exe -r  -e 's/\b(.+\.o)\b/scheduler\/\1/g' -e 's/\\/\//g' -e 's/\/\//\//g' -e 's/"//g' -e 's/([a-zA-Z]:\/)/\L\1/g' -e 's/\d32:/@TARGET_DELIMITER@/g; s/\\\d32/@ESCAPED_SPACE@/g; s/\d32/\\\d32/g; s/@ESCAPED_SPACE@/\\\d32/g; s/@TARGET_DELIMITER@/\d32:/g' "scheduler/AppScheduling.d" > "scheduler/AppScheduling.d_sed" && cp "scheduler/AppScheduling.d_sed" "scheduler/AppScheduling.d" && rm -f "scheduler/AppScheduling.d_sed" 2>/dev/null; else echo 'No dependency file to process';fi
+Finished building: ../scheduler/AppScheduling.c
+ 
+Building file: scheduler/AppScheduling.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 22011964
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "scheduler/AppScheduling.o" "scheduler/AppScheduling.src"
+Finished building: scheduler/AppScheduling.src
+ 
+Building target: tmp.elf
+Invoking: TASKING Linker
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 22011964
+cctc --lsl-file="../Lcf_Tasking_Tricore_Tc.lsl" -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="tmp.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --fp-model=3 -lrt --lsl-core=vtc --exceptions --strict --anachronisms --force-c++ -Ctc27xd -o"tmp.elf" -Wl-o"tmp.hex:IHEX"  ./scheduler/AppScheduling.o ./scheduler/driver_stm.o  ./pwmHl/pwmHl.o  ./motor/motor.o  ./gpio/gpio.o  ./encoder/encoder.o  ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.o  ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.o  ./Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.o  ./Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.o  ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.o ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.o ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.o  ./Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.o  ./Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.o  ./Libraries/iLLD/TC27D/Tricore/Gtm/Tom/Timer/IfxGtm_Tom_Timer.o  ./Libraries/iLLD/TC27D/Tricore/Gtm/Tom/PwmHl/IfxGtm_Tom_PwmHl.o  ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.o ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.o ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.o  ./Libraries/Service/CpuGeneric/SysSe/Bsp/Assert.o ./Libraries/Service/CpuGeneric/SysSe/Bsp/Bsp.o  ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.o  ./Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGcc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.o  ./Configurations/Debug/sync_on_halt.o  ./Cpu0_Main.o ./Cpu1_Main.o ./Cpu2_Main.o 
+Finished building target: tmp.elf
+ 
+Invoking: Print Size
+elfsize  "tmp.elf"
+TASKING VX-toolset for AURIX Development Studio (non-commercial): ELF size v1.1r8 Build 22011964
+Total sizes:
+ROM: 0x45c9 (17865) = code: 0x42c2 (17090) + romdata: 0x307 (775)
+RAM: 0x95fe (38398) = data + bss
+Finished building: tmp.siz
+ 
+AURIX Flasher Software Tool 1.0.8.0, built on 2023-07-07 오후 11:18:22
+Connected to device... [TRICORE] DAS JTAG SHIELDBUDDY TC275
+::Loading HEX file .......... (Pass)
+::Erasing Flash memory .......... (Pass)
+::Programming Flash memory .......... (Pass)
+Overall time: 1358 ms
+AURIXFlasher Exit Status: Pass
+Flashing was successfull
