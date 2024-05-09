@@ -92,7 +92,5 @@ Cpu0_Main.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Cpu/Irq/Ifx
 c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.h :
 Cpu0_Main.o :	c:/myTC275/automotive/tmp/scheduler/AppScheduling.h
 c:/myTC275/automotive/tmp/scheduler/AppScheduling.h :
-Cpu0_Main.o :	c:/myTC275/automotive/tmp/encoder/encoder.h
-c:/myTC275/automotive/tmp/encoder/encoder.h :
 Cpu0_Main.o :	c:/myTC275/automotive/tmp/motor/motor.h
 c:/myTC275/automotive/tmp/motor/motor.h :

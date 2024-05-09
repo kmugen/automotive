@@ -31,7 +31,7 @@
 
 #include "driver_stm.h"
 #include "AppScheduling.h"
-#include "encoder.h"
+//#include "encoder.h"
 #include "motor.h"
 
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
@@ -51,13 +51,13 @@ void core0_main(void)
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
 
     initMotor();
-    initEncoder();
+//    initEncoder();
     initStm();
     IfxCpu_enableInterrupts();
 
     while(1)
     {
-        countEncoderTicks();
-        AppScheduling();
+//        countEncoderTicks();
+//        AppScheduling();
     }
 }
