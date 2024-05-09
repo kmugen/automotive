@@ -161,6 +161,7 @@ Caused by: java.net.MalformedURLException: no protocol:
 
 !ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-09 16:12:56.247
 !MESSAGE Include paths were discovered in 97 milliseconds.
+<<<<<<< HEAD
 
 !ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-09 16:14:36.914
 !MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 1883 milliseconds. (incremental boost)
@@ -386,3 +387,5 @@ Caused by: java.net.MalformedURLException: no protocol:
 
 !ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-09 17:20:15.000
 !MESSAGE Include paths were discovered in 36 milliseconds.
+=======
+>>>>>>> parent of b738da2 (add pi control)

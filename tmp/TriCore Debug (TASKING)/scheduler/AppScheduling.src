@@ -1,6 +1,10 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+<<<<<<< HEAD
 	.compiler_invocation	"ctc -f cc8120a --dep-file=scheduler/AppScheduling.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\myTC275\\\\automotive\\\\tmp -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Configurations -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\encoder -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\gpio -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\motor -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\pwmHl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\scheduler -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\uart -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o scheduler/AppScheduling.src ../scheduler/AppScheduling.c"
+=======
+	.compiler_invocation	"ctc -f cc16280a --dep-file=scheduler/AppScheduling.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\myTC275\\\\automotive\\\\tmp -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Configurations -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\encoder -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\gpio -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\motor -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\pwmHl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\scheduler -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o scheduler/AppScheduling.src ../scheduler/AppScheduling.c"
+>>>>>>> parent of b738da2 (add pi control)
 	.compiler_name		"ctc"
 	;source	'../scheduler/AppScheduling.c'
 
@@ -12,12 +16,17 @@ $TC16X
 	.align	2
 	
 ; Function Task1ms
+<<<<<<< HEAD
 .L6:
+=======
+.L14:
+>>>>>>> parent of b738da2 (add pi control)
 Task1ms:	.type	func
 	movh.a	a15,#@his(stTestCnt)
 	lea	a15,[a15]@los(stTestCnt)
 	movh.a	a2,#@his(stTestCnt)
 	lea	a2,[a2]@los(stTestCnt)
+<<<<<<< HEAD
 .L98:
 	ld.w	d15,[a2]
 .L99:
@@ -33,6 +42,184 @@ Task1ms:	.type	func
 __Task1ms_function_end:
 	.size	Task1ms,__Task1ms_function_end-Task1ms
 .L26:
+=======
+.L106:
+	ld.w	d15,[a2]
+.L107:
+	add	d15,#1
+	st.w	[a15],d15
+.L108:
+	movh.a	a15,#@his(stTestCnt)
+	lea	a15,[a15]@los(stTestCnt)
+.L109:
+	ld.w	d15,[a15]
+.L110:
+	mov	d0,#4000
+.L111:
+	jlt.u	d15,d0,.L2
+.L112:
+	movh.a	a15,#@his(stTestCnt)
+	lea	a15,[a15]@los(stTestCnt)
+.L113:
+	ld.w	d15,[a15]
+.L114:
+	mov.u	d0,#41000
+.L115:
+	jlt.u	d15,d0,.L3
+.L2:
+	movh.a	a15,#@his(w_ref)
+	lea	a15,[a15]@los(w_ref)
+.L116:
+	mov	d15,#0
+.L117:
+	st.w	[a15],d15
+.L118:
+	j	.L4
+.L3:
+	movh.a	a15,#@his(stTestCnt)
+	lea	a15,[a15]@los(stTestCnt)
+.L119:
+	ld.w	d15,[a15]
+.L120:
+	mov	d0,#19000
+.L121:
+	jge.u	d15,d0,.L5
+.L122:
+	movh.a	a15,#@his(w_ref)
+	lea	a15,[a15]@los(w_ref)
+.L123:
+	movh.a	a2,#@his(stTestCnt)
+	lea	a2,[a2]@los(stTestCnt)
+.L124:
+	ld.w	d15,[a2]
+.L125:
+	utof	d15,d15
+.L126:
+	movh	d0,#17530
+.L127:
+	div.f	d15,d15,d0
+.L128:
+	movh	d0,#16512
+.L129:
+	sub.f	d15,d15,d0
+.L130:
+	mov	d0,#4055
+	addih	d0,d0,#16841
+.L131:
+	mul.f	d15,d15,d0
+.L132:
+	st.w	[a15],d15
+.L133:
+	j	.L6
+.L5:
+	movh.a	a15,#@his(stTestCnt)
+	lea	a15,[a15]@los(stTestCnt)
+.L134:
+	ld.w	d15,[a15]
+.L135:
+	mov	d0,#26000
+.L136:
+	jge.u	d15,d0,.L7
+.L137:
+	movh.a	a15,#@his(w_ref)
+	lea	a15,[a15]@los(w_ref)
+.L138:
+	mov	d15,#32474
+	addih	d15,d15,#17340
+.L139:
+	st.w	[a15],d15
+.L140:
+	j	.L8
+.L7:
+	movh.a	a15,#@his(stTestCnt)
+	lea	a15,[a15]@los(stTestCnt)
+.L141:
+	ld.w	d15,[a15]
+.L142:
+	mov.u	d0,#41000
+.L143:
+	jge.u	d15,d0,.L9
+.L144:
+	movh.a	a15,#@his(w_ref)
+	lea	a15,[a15]@los(w_ref)
+.L145:
+	movh	d15,#16932
+.L146:
+	movh.a	a2,#@his(stTestCnt)
+	lea	a2,[a2]@los(stTestCnt)
+.L147:
+	ld.w	d0,[a2]
+.L148:
+	utof	d0,d0
+.L149:
+	movh	d1,#17530
+.L150:
+	div.f	d0,d0,d1
+.L151:
+	sub.f	d15,d15,d0
+.L152:
+	mov	d0,#4055
+	addih	d0,d0,#16841
+.L153:
+	mul.f	d15,d15,d0
+.L154:
+	st.w	[a15],d15
+.L9:
+.L8:
+.L6:
+.L4:
+	movh.a	a15,#@his(cur_theta)
+	lea	a15,[a15]@los(cur_theta)
+.L155:
+	call	getEncoderPos
+.L156:
+	st.w	[a15],d2
+.L157:
+	movh.a	a15,#@his(w)
+	lea	a15,[a15]@los(w)
+.L158:
+	movh.a	a2,#@his(cur_theta)
+	lea	a2,[a2]@los(cur_theta)
+	ld.w	d15,[a2]
+.L159:
+	movh.a	a2,#@his(prev_theta)
+	lea	a2,[a2]@los(prev_theta)
+	ld.w	d0,[a2]
+.L160:
+	sub.f	d15,d15,d0
+.L161:
+	movh	d0,#17530
+.L162:
+	mul.f	d15,d15,d0
+.L163:
+	st.w	[a15],d15
+.L164:
+	movh.a	a15,#@his(prev_theta)
+	lea	a15,[a15]@los(prev_theta)
+.L165:
+	movh.a	a2,#@his(cur_theta)
+	lea	a2,[a2]@los(cur_theta)
+	ld.w	d15,[a2]
+.L166:
+	st.w	[a15],d15
+.L167:
+	movh.a	a15,#@his(w_ref)
+	lea	a15,[a15]@los(w_ref)
+	ld.w	d15,[a15]
+.L168:
+	mov.u	d0,#38011
+	addih	d0,d0,#17443
+.L169:
+	div.f	d4,d15,d0
+	call	setMotorPower
+.L170:
+	ret
+.L68:
+	
+__Task1ms_function_end:
+	.size	Task1ms,__Task1ms_function_end-Task1ms
+.L34:
+>>>>>>> parent of b738da2 (add pi control)
 	; End of function
 	
 	.sdecl	'.text.AppScheduling.Task10ms',code,cluster('Task10ms')
@@ -40,12 +227,17 @@ __Task1ms_function_end:
 	.align	2
 	
 ; Function Task10ms
+<<<<<<< HEAD
 .L8:
+=======
+.L16:
+>>>>>>> parent of b738da2 (add pi control)
 Task10ms:	.type	func
 	movh.a	a15,#@his(stTestCnt)
 	lea	a15,[a15]@los(stTestCnt)
 	movh.a	a2,#@his(stTestCnt)
 	lea	a2,[a2]@los(stTestCnt)
+<<<<<<< HEAD
 .L106:
 	ld.w	d15,[a2]4
 .L107:
@@ -58,6 +250,20 @@ Task10ms:	.type	func
 __Task10ms_function_end:
 	.size	Task10ms,__Task10ms_function_end-Task10ms
 .L31:
+=======
+.L175:
+	ld.w	d15,[a2]4
+.L176:
+	add	d15,#1
+	st.w	[a15]4,d15
+.L177:
+	ret
+.L69:
+	
+__Task10ms_function_end:
+	.size	Task10ms,__Task10ms_function_end-Task10ms
+.L39:
+>>>>>>> parent of b738da2 (add pi control)
 	; End of function
 	
 	.sdecl	'.text.AppScheduling.Task100ms',code,cluster('Task100ms')
@@ -65,12 +271,17 @@ __Task10ms_function_end:
 	.align	2
 	
 ; Function Task100ms
+<<<<<<< HEAD
 .L10:
+=======
+.L18:
+>>>>>>> parent of b738da2 (add pi control)
 Task100ms:	.type	func
 	movh.a	a15,#@his(stTestCnt)
 	lea	a15,[a15]@los(stTestCnt)
 	movh.a	a2,#@his(stTestCnt)
 	lea	a2,[a2]@los(stTestCnt)
+<<<<<<< HEAD
 .L113:
 	ld.w	d15,[a2]8
 .L114:
@@ -83,6 +294,20 @@ Task100ms:	.type	func
 __Task100ms_function_end:
 	.size	Task100ms,__Task100ms_function_end-Task100ms
 .L36:
+=======
+.L182:
+	ld.w	d15,[a2]8
+.L183:
+	add	d15,#1
+	st.w	[a15]8,d15
+.L184:
+	ret
+.L70:
+	
+__Task100ms_function_end:
+	.size	Task100ms,__Task100ms_function_end-Task100ms
+.L44:
+>>>>>>> parent of b738da2 (add pi control)
 	; End of function
 	
 	.sdecl	'.text.AppScheduling.AppScheduling',code,cluster('AppScheduling')
@@ -91,6 +316,7 @@ __Task100ms_function_end:
 	
 	.global	AppScheduling
 ; Function AppScheduling
+<<<<<<< HEAD
 .L12:
 AppScheduling:	.type	func
 	movh.a	a15,#@his(schedulingInfo)
@@ -116,10 +342,54 @@ AppScheduling:	.type	func
 .L83:
 	jne	d15,#1,.L3
 .L84:
+=======
+.L20:
+AppScheduling:	.type	func
+	movh.a	a15,#@his(schedulingInfo)
+	lea	a15,[a15]@los(schedulingInfo)
+.L83:
+	ld.bu	d15,[a15]
+.L84:
+	jne	d15,#1,.L10
+.L85:
+	movh.a	a15,#@his(schedulingInfo)
+	lea	a15,[a15]@los(schedulingInfo)
+.L86:
+	mov	d15,#0
+.L87:
+	st.b	[a15],d15
+.L88:
+	call	Task1ms
+.L89:
+	movh.a	a15,#@his(schedulingInfo)
+	lea	a15,[a15]@los(schedulingInfo)
+.L90:
+	ld.bu	d15,[a15]1
+.L91:
+	jne	d15,#1,.L11
+.L92:
+	movh.a	a15,#@his(schedulingInfo)
+	lea	a15,[a15]@los(schedulingInfo)
+.L93:
+	mov	d15,#0
+.L94:
+	st.b	[a15]1,d15
+.L95:
+	call	Task10ms
+.L11:
+	movh.a	a15,#@his(schedulingInfo)
+	lea	a15,[a15]@los(schedulingInfo)
+.L96:
+	ld.bu	d15,[a15]2
+.L97:
+	jne	d15,#1,.L12
+.L98:
+>>>>>>> parent of b738da2 (add pi control)
 	movh.a	a15,#@his(schedulingInfo)
 	lea	a15,[a15]@los(schedulingInfo)
 .L85:
 	mov	d15,#0
+<<<<<<< HEAD
 .L86:
 	st.b	[a15]1,d15
 .L87:
@@ -148,6 +418,20 @@ AppScheduling:	.type	func
 __AppScheduling_function_end:
 	.size	AppScheduling,__AppScheduling_function_end-AppScheduling
 .L21:
+=======
+.L100:
+	st.b	[a15]2,d15
+.L101:
+	call	Task100ms
+.L12:
+.L10:
+	ret
+.L67:
+	
+__AppScheduling_function_end:
+	.size	AppScheduling,__AppScheduling_function_end-AppScheduling
+.L29:
+>>>>>>> parent of b738da2 (add pi control)
 	; End of function
 	
 	.sdecl	'.bss.AppScheduling.stTestCnt',data,cluster('stTestCnt')
@@ -163,14 +447,14 @@ stTestCnt:	.type	object
 	.align	2
 Kp:	.type	object
 	.size	Kp,4
-	.word	1034147594
+	.word	1065353216
 	.sdecl	'.rodata.AppScheduling.Ki',data,rom,cluster('Ki')
 	.sect	'.rodata.AppScheduling.Ki'
 	.global	Ki
 	.align	2
 Ki:	.type	object
 	.size	Ki,4
-	.word	1028443341
+	.word	1092616192
 	.sdecl	'.bss.AppScheduling.w',data,cluster('w')
 	.sect	'.bss.AppScheduling.w'
 	.global	w
@@ -239,17 +523,30 @@ cur_theta:	.type	object
 	.calls	'AppScheduling','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
+<<<<<<< HEAD
 .L14:
 	.word	92936
 	.half	3
 	.word	.L15
 	.byte	4
 .L13:
+=======
+.L22:
+	.word	92962
+	.half	3
+	.word	.L23
+	.byte	4
+.L21:
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	1
 	.byte	'../scheduler/AppScheduling.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+<<<<<<< HEAD
 	.word	.L16
+=======
+	.word	.L24
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	2,1,1,3
 	.word	175
 	.byte	4
@@ -258,7 +555,11 @@ cur_theta:	.type	object
 	.word	178
 	.byte	6,0,7
 	.byte	'__fract',0,4,128,1
+<<<<<<< HEAD
 .L66:
+=======
+.L74:
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	7
 	.byte	'float',0,4,4,8
 	.byte	'Ifx__float_to_fract',0,3,1,149,2,18
@@ -13993,8 +14294,13 @@ cur_theta:	.type	object
 	.byte	'schedulingInfo',0,23,15,23
 	.word	92751
 	.byte	1,1
+<<<<<<< HEAD
 .L63:
 	.byte	28,15,19,9,12,13
+=======
+.L71:
+	.byte	29,16,19,9,12,13
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	'cnt_1ms',0
 	.word	1697
 	.byte	4,2,35,0,13
@@ -14003,6 +14309,7 @@ cur_theta:	.type	object
 	.byte	4,2,35,4,13
 	.byte	'cnt_100ms',0
 	.word	1697
+<<<<<<< HEAD
 	.byte	4,2,35,8,0,26
 	.byte	'TestCnt',0,15,24,2
 	.word	92853
@@ -14011,11 +14318,25 @@ cur_theta:	.type	object
 	.word	235
 .L65:
 	.byte	30
+=======
+	.byte	4,2,35,8,0,27
+	.byte	'TestCnt',0,16,24,2
+	.word	92879
+.L72:
+	.byte	31
+	.word	235
+.L73:
+	.byte	31
+>>>>>>> parent of b738da2 (add pi control)
 	.word	235
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
+<<<<<<< HEAD
 .L15:
+=======
+.L23:
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -14027,12 +14348,21 @@ cur_theta:	.type	object
 	.byte	15,59,15,57,15,73,19,63,12,60,12,0,0,30,38,0,73,19,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
+<<<<<<< HEAD
 .L16:
 	.word	.L68-.L67
 .L67:
 	.half	3
 	.word	.L70-.L69
 .L69:
+=======
+.L24:
+	.word	.L76-.L75
+.L75:
+	.half	3
+	.word	.L78-.L77
+.L77:
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0
 	.byte	'C:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std',0
@@ -14071,6 +14401,7 @@ cur_theta:	.type	object
 	.byte	0,0
 	.byte	'IfxCbs_regdef.h',0,1,0,0
 	.byte	'..\\scheduler\\driver_stm.h',0,0,0,0,0
+<<<<<<< HEAD
 .L70:
 .L68:
 	.sdecl	'.debug_info',debug,cluster('AppScheduling')
@@ -14079,10 +14410,21 @@ cur_theta:	.type	object
 	.word	224
 	.half	3
 	.word	.L18
+=======
+.L78:
+.L76:
+	.sdecl	'.debug_info',debug,cluster('AppScheduling')
+	.sect	'.debug_info'
+.L25:
+	.word	224
+	.half	3
+	.word	.L26
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	4,1
 	.byte	'../scheduler/AppScheduling.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+<<<<<<< HEAD
 	.word	.L20,.L19
 	.byte	2
 	.word	.L13
@@ -14095,10 +14437,25 @@ cur_theta:	.type	object
 	.sdecl	'.debug_abbrev',debug,cluster('AppScheduling')
 	.sect	'.debug_abbrev'
 .L18:
+=======
+	.word	.L28,.L27
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'AppScheduling',0,1,117,6,1,1,1
+	.word	.L20,.L67,.L19
+	.byte	4
+	.word	.L20,.L67
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppScheduling')
+	.sect	'.debug_abbrev'
+.L26:
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('AppScheduling')
 	.sect	'.debug_line'
+<<<<<<< HEAD
 .L19:
 	.word	.L72-.L71
 .L71:
@@ -14126,9 +14483,53 @@ cur_theta:	.type	object
 	.half	.L81-.L80
 	.byte	3,2,1,5,26,9
 	.half	.L82-.L81
+=======
+.L27:
+	.word	.L80-.L79
+.L79:
+	.half	3
+	.word	.L82-.L81
+.L81:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../scheduler/AppScheduling.c',0,0,0,0,0
+.L82:
+	.byte	5,8,7,0,5,2
+	.word	.L20
+	.byte	3,246,0,1,5,22,9
+	.half	.L83-.L20
+	.byte	1,5,5,9
+	.half	.L84-.L83
+	.byte	1,5,9,7,9
+	.half	.L85-.L84
+	.byte	3,2,1,5,32,9
+	.half	.L86-.L85
+	.byte	1,5,30,9
+	.half	.L87-.L86
+	.byte	1,5,16,9
+	.half	.L88-.L87
+	.byte	3,1,1,5,12,9
+	.half	.L89-.L88
+	.byte	3,2,1,5,26,9
+	.half	.L90-.L89
+	.byte	1,5,9,9
+	.half	.L91-.L90
+	.byte	1,5,13,7,9
+	.half	.L92-.L91
+	.byte	3,2,1,5,37,9
+	.half	.L93-.L92
+	.byte	1,5,35,9
+	.half	.L94-.L93
+	.byte	1,5,21,9
+	.half	.L95-.L94
+	.byte	3,1,1,5,12,9
+	.half	.L11-.L95
+	.byte	3,3,1,5,26,9
+	.half	.L96-.L11
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	1,5,9,9
 	.half	.L83-.L82
 	.byte	1,5,13,7,9
+<<<<<<< HEAD
 	.half	.L84-.L83
 	.byte	3,2,1,5,37,9
 	.half	.L85-.L84
@@ -14166,10 +14567,36 @@ cur_theta:	.type	object
 	.word	217
 	.half	3
 	.word	.L23
+=======
+	.half	.L98-.L97
+	.byte	3,2,1,5,38,9
+	.half	.L99-.L98
+	.byte	1,5,36,9
+	.half	.L100-.L99
+	.byte	1,5,22,9
+	.half	.L101-.L100
+	.byte	3,1,1,5,1,9
+	.half	.L10-.L101
+	.byte	3,3,1,7,9
+	.half	.L29-.L10
+	.byte	0,1,1
+.L80:
+	.sdecl	'.debug_ranges',debug,cluster('AppScheduling')
+	.sect	'.debug_ranges'
+.L28:
+	.word	-1,.L20,0,.L29-.L20,0,0
+	.sdecl	'.debug_info',debug,cluster('Task1ms')
+	.sect	'.debug_info'
+.L30:
+	.word	217
+	.half	3
+	.word	.L31
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	4,1
 	.byte	'../scheduler/AppScheduling.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+<<<<<<< HEAD
 	.word	.L25,.L24
 	.byte	2
 	.word	.L13
@@ -14182,10 +14609,25 @@ cur_theta:	.type	object
 	.sdecl	'.debug_abbrev',debug,cluster('Task1ms')
 	.sect	'.debug_abbrev'
 .L23:
+=======
+	.word	.L33,.L32
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'Task1ms',0,1,44,13,1,1
+	.word	.L14,.L68,.L13
+	.byte	4
+	.word	.L14,.L68
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Task1ms')
+	.sect	'.debug_abbrev'
+.L31:
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Task1ms')
 	.sect	'.debug_line'
+<<<<<<< HEAD
 .L24:
 	.word	.L95-.L94
 .L94:
@@ -14473,12 +14915,346 @@ cur_theta:	.type	object
 	.sect	'.debug_info'
 .L51:
 	.word	194
+=======
+.L32:
+	.word	.L103-.L102
+.L102:
+	.half	3
+	.word	.L105-.L104
+.L104:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../scheduler/AppScheduling.c',0,0,0,0,0
+.L105:
+	.byte	5,5,7,0,5,2
+	.word	.L14
+	.byte	3,45,1,5,14,9
+	.half	.L106-.L14
+	.byte	1,5,22,9
+	.half	.L107-.L106
+	.byte	1,5,9,9
+	.half	.L108-.L107
+	.byte	3,2,1,5,18,9
+	.half	.L109-.L108
+	.byte	1,5,29,9
+	.half	.L110-.L109
+	.byte	1,5,9,9
+	.half	.L111-.L110
+	.byte	1,5,37,7,9
+	.half	.L112-.L111
+	.byte	1,5,46,9
+	.half	.L113-.L112
+	.byte	1,5,58,9
+	.half	.L114-.L113
+	.byte	1,5,55,9
+	.half	.L115-.L114
+	.byte	1,5,9,7,9
+	.half	.L2-.L115
+	.byte	3,2,1,5,17,9
+	.half	.L116-.L2
+	.byte	1,5,15,9
+	.half	.L117-.L116
+	.byte	1,5,18,9
+	.half	.L118-.L117
+	.byte	1,5,14,9
+	.half	.L3-.L118
+	.byte	3,2,1,5,23,9
+	.half	.L119-.L3
+	.byte	1,5,34,9
+	.half	.L120-.L119
+	.byte	1,5,10,9
+	.half	.L121-.L120
+	.byte	1,5,9,7,9
+	.half	.L122-.L121
+	.byte	3,2,1,5,40,9
+	.half	.L123-.L122
+	.byte	1,5,49,9
+	.half	.L124-.L123
+	.byte	1,5,31,9
+	.half	.L125-.L124
+	.byte	1,5,60,9
+	.half	.L126-.L125
+	.byte	1,5,58,9
+	.half	.L127-.L126
+	.byte	1,5,68,9
+	.half	.L128-.L127
+	.byte	1,5,66,9
+	.half	.L129-.L128
+	.byte	1,5,22,9
+	.half	.L130-.L129
+	.byte	1,5,66,9
+	.half	.L131-.L130
+	.byte	1,5,15,9
+	.half	.L132-.L131
+	.byte	1,5,70,9
+	.half	.L133-.L132
+	.byte	1,5,14,9
+	.half	.L5-.L133
+	.byte	3,2,1,5,23,9
+	.half	.L134-.L5
+	.byte	1,5,34,9
+	.half	.L135-.L134
+	.byte	1,5,10,9
+	.half	.L136-.L135
+	.byte	1,5,9,7,9
+	.half	.L137-.L136
+	.byte	3,2,1,5,17,9
+	.half	.L138-.L137
+	.byte	1,5,15,9
+	.half	.L139-.L138
+	.byte	1,5,21,9
+	.half	.L140-.L139
+	.byte	1,5,14,9
+	.half	.L7-.L140
+	.byte	3,2,1,5,23,9
+	.half	.L141-.L7
+	.byte	1,5,34,9
+	.half	.L142-.L141
+	.byte	1,5,10,9
+	.half	.L143-.L142
+	.byte	1,5,9,7,9
+	.half	.L144-.L143
+	.byte	3,2,1,5,30,9
+	.half	.L145-.L144
+	.byte	1,5,45,9
+	.half	.L146-.L145
+	.byte	1,5,54,9
+	.half	.L147-.L146
+	.byte	1,5,36,9
+	.half	.L148-.L147
+	.byte	1,5,65,9
+	.half	.L149-.L148
+	.byte	1,5,63,9
+	.half	.L150-.L149
+	.byte	1,5,33,9
+	.half	.L151-.L150
+	.byte	1,5,22,9
+	.half	.L152-.L151
+	.byte	1,5,33,9
+	.half	.L153-.L152
+	.byte	1,5,15,9
+	.half	.L154-.L153
+	.byte	1,5,9,9
+	.half	.L4-.L154
+	.byte	3,6,1,5,34,9
+	.half	.L155-.L4
+	.byte	1,5,19,9
+	.half	.L156-.L155
+	.byte	1,5,9,9
+	.half	.L157-.L156
+	.byte	3,1,1,5,14,9
+	.half	.L158-.L157
+	.byte	1,5,26,9
+	.half	.L159-.L158
+	.byte	1,5,24,9
+	.half	.L160-.L159
+	.byte	1,5,40,9
+	.half	.L161-.L160
+	.byte	1,5,38,9
+	.half	.L162-.L161
+	.byte	1,5,11,9
+	.half	.L163-.L162
+	.byte	1,5,9,9
+	.half	.L164-.L163
+	.byte	3,1,1,5,22,9
+	.half	.L165-.L164
+	.byte	1,5,20,9
+	.half	.L166-.L165
+	.byte	1,5,19,9
+	.half	.L167-.L166
+	.byte	3,34,1,5,27,9
+	.half	.L168-.L167
+	.byte	1,5,25,9
+	.half	.L169-.L168
+	.byte	1,5,1,9
+	.half	.L170-.L169
+	.byte	3,1,1,7,9
+	.half	.L34-.L170
+	.byte	0,1,1
+.L103:
+	.sdecl	'.debug_ranges',debug,cluster('Task1ms')
+	.sect	'.debug_ranges'
+.L33:
+	.word	-1,.L14,0,.L34-.L14,0,0
+	.sdecl	'.debug_info',debug,cluster('Task10ms')
+	.sect	'.debug_info'
+.L35:
+	.word	218
+	.half	3
+	.word	.L36
+	.byte	4,1
+	.byte	'../scheduler/AppScheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L38,.L37
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'Task10ms',0,1,107,13,1,1
+	.word	.L16,.L69,.L15
+	.byte	4
+	.word	.L16,.L69
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Task10ms')
+	.sect	'.debug_abbrev'
+.L36:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Task10ms')
+	.sect	'.debug_line'
+.L37:
+	.word	.L172-.L171
+.L171:
+	.half	3
+	.word	.L174-.L173
+.L173:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../scheduler/AppScheduling.c',0,0,0,0,0
+.L174:
+	.byte	5,5,7,0,5,2
+	.word	.L16
+	.byte	3,236,0,1,5,14,9
+	.half	.L175-.L16
+	.byte	1,5,23,9
+	.half	.L176-.L175
+	.byte	1,5,1,9
+	.half	.L177-.L176
+	.byte	3,1,1,7,9
+	.half	.L39-.L177
+	.byte	0,1,1
+.L172:
+	.sdecl	'.debug_ranges',debug,cluster('Task10ms')
+	.sect	'.debug_ranges'
+.L38:
+	.word	-1,.L16,0,.L39-.L16,0,0
+	.sdecl	'.debug_info',debug,cluster('Task100ms')
+	.sect	'.debug_info'
+.L40:
+	.word	219
+	.half	3
+	.word	.L41
+	.byte	4,1
+	.byte	'../scheduler/AppScheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L43,.L42
+	.byte	2
+	.word	.L21
+	.byte	3
+	.byte	'Task100ms',0,1,112,13,1,1
+	.word	.L18,.L70,.L17
+	.byte	4
+	.word	.L18,.L70
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Task100ms')
+	.sect	'.debug_abbrev'
+.L41:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Task100ms')
+	.sect	'.debug_line'
+.L42:
+	.word	.L179-.L178
+.L178:
+	.half	3
+	.word	.L181-.L180
+.L180:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../scheduler/AppScheduling.c',0,0,0,0,0
+.L181:
+	.byte	5,5,7,0,5,2
+	.word	.L18
+	.byte	3,241,0,1,5,14,9
+	.half	.L182-.L18
+	.byte	1,5,24,9
+	.half	.L183-.L182
+	.byte	1,5,1,9
+	.half	.L184-.L183
+	.byte	3,1,1,7,9
+	.half	.L44-.L184
+	.byte	0,1,1
+.L179:
+	.sdecl	'.debug_ranges',debug,cluster('Task100ms')
+	.sect	'.debug_ranges'
+.L43:
+	.word	-1,.L18,0,.L44-.L18,0,0
+	.sdecl	'.debug_info',debug,cluster('stTestCnt')
+	.sect	'.debug_info'
+.L45:
+	.word	198
+>>>>>>> parent of b738da2 (add pi control)
+	.half	3
+	.word	.L46
+	.byte	4,1
+	.byte	'../scheduler/AppScheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L21
+	.byte	3
+	.byte	'stTestCnt',0,16,30,9
+	.word	.L71
+	.byte	1,5,3
+	.word	stTestCnt
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('stTestCnt')
+	.sect	'.debug_abbrev'
+.L46:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Kp')
+	.sect	'.debug_info'
+.L47:
+	.word	191
+	.half	3
+	.word	.L48
+	.byte	4,1
+	.byte	'../scheduler/AppScheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L21
+	.byte	3
+	.byte	'Kp',0,16,32,15
+	.word	.L72
+	.byte	1,5,3
+	.word	Kp
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Kp')
+	.sect	'.debug_abbrev'
+.L48:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Ki')
+	.sect	'.debug_info'
+.L49:
+	.word	191
+	.half	3
+	.word	.L50
+	.byte	4,1
+	.byte	'../scheduler/AppScheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L21
+	.byte	3
+	.byte	'Ki',0,16,33,15
+	.word	.L73
+	.byte	1,5,3
+	.word	Ki
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Ki')
+	.sect	'.debug_abbrev'
+.L50:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('w')
+	.sect	'.debug_info'
+.L51:
+	.word	190
 	.half	3
 	.word	.L52
 	.byte	4,1
 	.byte	'../scheduler/AppScheduling.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+<<<<<<< HEAD
 	.word	.L13
 	.byte	3
 	.byte	'w_err',0,15,39,9
@@ -14487,20 +15263,38 @@ cur_theta:	.type	object
 	.word	w_err
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('w_err')
+=======
+	.word	.L21
+	.byte	3
+	.byte	'w',0,16,35,9
+	.word	.L74
+	.byte	1,5,3
+	.word	w
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('w')
+>>>>>>> parent of b738da2 (add pi control)
 	.sect	'.debug_abbrev'
 .L52:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
+<<<<<<< HEAD
 	.sdecl	'.debug_info',debug,cluster('int_w_err')
 	.sect	'.debug_info'
 .L53:
 	.word	198
+=======
+	.sdecl	'.debug_info',debug,cluster('w_ref')
+	.sect	'.debug_info'
+.L53:
+	.word	194
+>>>>>>> parent of b738da2 (add pi control)
 	.half	3
 	.word	.L54
 	.byte	4,1
 	.byte	'../scheduler/AppScheduling.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+<<<<<<< HEAD
 	.word	.L13
 	.byte	3
 	.byte	'int_w_err',0,15,40,9
@@ -14509,20 +15303,38 @@ cur_theta:	.type	object
 	.word	int_w_err
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('int_w_err')
+=======
+	.word	.L21
+	.byte	3
+	.byte	'w_ref',0,16,36,9
+	.word	.L74
+	.byte	1,5,3
+	.word	w_ref
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('w_ref')
+>>>>>>> parent of b738da2 (add pi control)
 	.sect	'.debug_abbrev'
 .L54:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
+<<<<<<< HEAD
 	.sdecl	'.debug_info',debug,cluster('prev_theta')
 	.sect	'.debug_info'
 .L55:
 	.word	199
+=======
+	.sdecl	'.debug_info',debug,cluster('w_lpf')
+	.sect	'.debug_info'
+.L55:
+	.word	194
+>>>>>>> parent of b738da2 (add pi control)
 	.half	3
 	.word	.L56
 	.byte	4,1
 	.byte	'../scheduler/AppScheduling.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+<<<<<<< HEAD
 	.word	.L13
 	.byte	3
 	.byte	'prev_theta',0,15,41,9
@@ -14531,63 +15343,203 @@ cur_theta:	.type	object
 	.word	prev_theta
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('prev_theta')
+=======
+	.word	.L21
+	.byte	3
+	.byte	'w_lpf',0,16,37,9
+	.word	.L74
+	.byte	1,5,3
+	.word	w_lpf
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('w_lpf')
+>>>>>>> parent of b738da2 (add pi control)
 	.sect	'.debug_abbrev'
 .L56:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
+<<<<<<< HEAD
 	.sdecl	'.debug_info',debug,cluster('cur_theta')
 	.sect	'.debug_info'
 .L57:
 	.word	198
+=======
+	.sdecl	'.debug_info',debug,cluster('v_in')
+	.sect	'.debug_info'
+.L57:
+	.word	193
+>>>>>>> parent of b738da2 (add pi control)
 	.half	3
 	.word	.L58
 	.byte	4,1
 	.byte	'../scheduler/AppScheduling.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+<<<<<<< HEAD
 	.word	.L13
 	.byte	3
 	.byte	'cur_theta',0,15,42,9
 	.word	.L66
+=======
+	.word	.L21
+	.byte	3
+	.byte	'v_in',0,16,38,9
+	.word	.L74
+	.byte	1,5,3
+	.word	v_in
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('v_in')
+	.sect	'.debug_abbrev'
+.L58:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('w_err')
+	.sect	'.debug_info'
+.L59:
+	.word	194
+	.half	3
+	.word	.L60
+	.byte	4,1
+	.byte	'../scheduler/AppScheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L21
+	.byte	3
+	.byte	'w_err',0,16,39,9
+	.word	.L74
+	.byte	1,5,3
+	.word	w_err
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('w_err')
+	.sect	'.debug_abbrev'
+.L60:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('int_w_err')
+	.sect	'.debug_info'
+.L61:
+	.word	198
+	.half	3
+	.word	.L62
+	.byte	4,1
+	.byte	'../scheduler/AppScheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L21
+	.byte	3
+	.byte	'int_w_err',0,16,40,9
+	.word	.L74
+	.byte	1,5,3
+	.word	int_w_err
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('int_w_err')
+	.sect	'.debug_abbrev'
+.L62:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('prev_theta')
+	.sect	'.debug_info'
+.L63:
+	.word	199
+	.half	3
+	.word	.L64
+	.byte	4,1
+	.byte	'../scheduler/AppScheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L21
+	.byte	3
+	.byte	'prev_theta',0,16,41,9
+	.word	.L74
+	.byte	1,5,3
+	.word	prev_theta
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('prev_theta')
+	.sect	'.debug_abbrev'
+.L64:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('cur_theta')
+	.sect	'.debug_info'
+.L65:
+	.word	198
+	.half	3
+	.word	.L66
+	.byte	4,1
+	.byte	'../scheduler/AppScheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L21
+	.byte	3
+	.byte	'cur_theta',0,16,42,9
+	.word	.L74
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	1,5,3
 	.word	cur_theta
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('cur_theta')
 	.sect	'.debug_abbrev'
+<<<<<<< HEAD
 .L58:
+=======
+.L66:
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('AppScheduling')
 	.sect	'.debug_loc'
+<<<<<<< HEAD
 .L11:
 	.word	-1,.L12,0,.L59-.L12
+=======
+.L19:
+	.word	-1,.L20,0,.L67-.L20
+>>>>>>> parent of b738da2 (add pi control)
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Task100ms')
 	.sect	'.debug_loc'
+<<<<<<< HEAD
 .L9:
 	.word	-1,.L10,0,.L62-.L10
+=======
+.L17:
+	.word	-1,.L18,0,.L70-.L18
+>>>>>>> parent of b738da2 (add pi control)
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Task10ms')
 	.sect	'.debug_loc'
+<<<<<<< HEAD
 .L7:
 	.word	-1,.L8,0,.L61-.L8
+=======
+.L15:
+	.word	-1,.L16,0,.L69-.L16
+>>>>>>> parent of b738da2 (add pi control)
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Task1ms')
 	.sect	'.debug_loc'
+<<<<<<< HEAD
 .L5:
 	.word	-1,.L6,0,.L60-.L6
+=======
+.L13:
+	.word	-1,.L14,0,.L68-.L14
+>>>>>>> parent of b738da2 (add pi control)
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
+<<<<<<< HEAD
 .L116:
+=======
+.L185:
+>>>>>>> parent of b738da2 (add pi control)
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -14595,19 +15547,35 @@ cur_theta:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('Task1ms')
 	.sect	'.debug_frame'
 	.word	12
+<<<<<<< HEAD
 	.word	.L116,.L6,.L60-.L6
 	.sdecl	'.debug_frame',debug,cluster('Task10ms')
 	.sect	'.debug_frame'
 	.word	24
 	.word	.L116,.L8,.L61-.L8
+=======
+	.word	.L185,.L14,.L68-.L14
+	.sdecl	'.debug_frame',debug,cluster('Task10ms')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L185,.L16,.L69-.L16
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('Task100ms')
 	.sect	'.debug_frame'
 	.word	24
+<<<<<<< HEAD
 	.word	.L116,.L10,.L62-.L10
+=======
+	.word	.L185,.L18,.L70-.L18
+>>>>>>> parent of b738da2 (add pi control)
 	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('AppScheduling')
 	.sect	'.debug_frame'
 	.word	12
+<<<<<<< HEAD
 	.word	.L116,.L12,.L59-.L12
+=======
+	.word	.L185,.L20,.L67-.L20
+>>>>>>> parent of b738da2 (add pi control)
 	; Module end
