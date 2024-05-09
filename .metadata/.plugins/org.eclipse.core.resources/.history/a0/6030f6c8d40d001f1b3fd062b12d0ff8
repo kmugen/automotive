@@ -13,7 +13,7 @@
 #define V_PER_RPS   1 / RPS_PER_V
 #define PI          3.141592f
 #define T_S         0.001f
-#define W_SS        100 * 2 * PI
+#define W_SS        20 * PI
 #define MS_PER_SEC  1000
 
 typedef struct
@@ -29,8 +29,8 @@ static void Task100ms(void);
 
 TestCnt stTestCnt;
 
-const float32 Kp = 0.08;
-const float32 Ki = 0.05;
+const float32 Kp = 0.02;
+const float32 Ki = 1;
 
 float32 w;
 float32 w_ref;
@@ -73,11 +73,11 @@ static void Task1ms(void)
 
         w_err = w_ref - w;
 
-        int_w_err += w_err * 0.001;
-        if (int_w_err > 10)
-        {
-            int_w_err = 10;
-        }
+//        int_w_err += w_err * 0.001;
+//        if (int_w_err > 10)
+//        {
+//            int_w_err = 10;
+//        }
 
         v_in = (Kp * w_err);
     }

@@ -13,7 +13,7 @@
 #define V_PER_RPS   1 / RPS_PER_V
 #define PI          3.141592f
 #define T_S         0.001f
-#define W_SS        100 * 2 * PI
+#define W_SS        20 * PI
 #define MS_PER_SEC  1000
 
 typedef struct
