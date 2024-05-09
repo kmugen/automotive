@@ -18,11 +18,13 @@
 
 typedef struct
 {
+        uint32 cnt_100us;
         uint32 cnt_1ms;
         uint32 cnt_10ms;
         uint32 cnt_100ms;
 }TestCnt;
 
+static void Task100us(void);
 static void Task1ms(void);
 static void Task10ms(void);
 static void Task100ms(void);
@@ -41,32 +43,35 @@ float32 int_w_err;
 float32 prev_theta;
 float32 cur_theta;
 
-static void Task1ms(void)
+static void Task100us(void)
 {
-    stTestCnt.cnt_1ms++;
-
-    if (stTestCnt.cnt_1ms < 4000 || stTestCnt.cnt_1ms >= 41000)
+    stTestCnt.cnt_100us++;
+    if (stTestCnt.cnt_100us % 10 == 0)
+    {
+        stTestCnt.cnt_1ms++;
+    }
+    if (stTestCnt.cnt_100us < 40000 || stTestCnt.cnt_100us >= 410000)
     {
         w_ref = 0;
     }
-    else if (stTestCnt.cnt_1ms < 19000)
+    else if (stTestCnt.cnt_100us < 190000)
     {
-        w_ref = W_SS / 15 * (((float32)stTestCnt.cnt_1ms / 1000) - 4);
+        w_ref = W_SS / 15 * (((float32)stTestCnt.cnt_100us / 10000) - 4);
     }
-    else if (stTestCnt.cnt_1ms < 26000)
+    else if (stTestCnt.cnt_100us < 260000)
     {
         w_ref = W_SS;
     }
-    else if (stTestCnt.cnt_1ms < 41000)
+    else if (stTestCnt.cnt_100us < 410000)
     {
-        w_ref = W_SS / 15 * (41 - ((float32)stTestCnt.cnt_1ms / 1000));
+        w_ref = W_SS / 15 * (41 - ((float32)stTestCnt.cnt_100us / 10000));
     }
 //    if (w_ref > 0)
 //    {
 ////        w_lpf = lowPassFilter(w_ref);
 //
         cur_theta = getEncoderPos();
-        w = (cur_theta - prev_theta) * 1000;
+        w = (cur_theta - prev_theta) * 10000;
         prev_theta = cur_theta;
 //
 ////        w_err = w_lpf - w;
@@ -104,6 +109,11 @@ static void Task1ms(void)
     setMotorPower(w_ref / RPS_MAX);
 }
 
+static void Task1ms(void)
+{
+
+}
+
 static void Task10ms(void)
 {
     stTestCnt.cnt_10ms++;
@@ -116,6 +126,11 @@ static void Task100ms(void)
 
 void AppScheduling(void)
 {
+    if(schedulingInfo.f_100us == 1)
+    {
+        schedulingInfo.f_100us = 0;
+                Task100us();
+    }
     if(schedulingInfo.f_1ms == 1)
     {
         schedulingInfo.f_1ms = 0;

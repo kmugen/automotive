@@ -7,7 +7,7 @@ typedef struct
 } App_Stm;
 
 App_Stm g_stm;
-uint32 cnt_1ms = 0;
+uint32 cnt_100us = 0;
 schedulingFlag schedulingInfo;
 
 IFX_INTERRUPT(STM_Int0Handler, 0, 100);
@@ -16,19 +16,23 @@ void STM_Int0Handler(void)
     IfxCpu_enableInterrupts();
 
     IfxStm_clearCompareFlag(g_stm.stmSfr, g_stm.stmConfig.comparator);
-    IfxStm_increaseCompare(g_stm.stmSfr, g_stm.stmConfig.comparator, 100000);
+    IfxStm_increaseCompare(g_stm.stmSfr, g_stm.stmConfig.comparator, 10000);
 
-    cnt_1ms++;
+    cnt_100us++;
 
-    if ((cnt_1ms % 1) == 0)
+    if ((cnt_100us % 1) == 0)
+    {
+        schedulingInfo.f_100us = 1;
+    }
+    if ((cnt_100us % 10) == 0)
     {
         schedulingInfo.f_1ms = 1;
     }
-    if ((cnt_1ms % 10) == 0)
+    if ((cnt_100us % 100) == 0)
     {
         schedulingInfo.f_10ms = 1;
     }
-    if ((cnt_1ms % 100) == 0)
+    if ((cnt_100us % 1000) == 0)
     {
         schedulingInfo.f_100ms = 1;
     }
@@ -43,7 +47,7 @@ void initStm(void)
 
     g_stm.stmConfig.triggerPriority = 100;
     g_stm.stmConfig.typeOfService   = IfxSrc_Tos_cpu0;
-    g_stm.stmConfig.ticks           = 100000;
+    g_stm.stmConfig.ticks           = 10000;
 
     IfxStm_initCompare(g_stm.stmSfr, &g_stm.stmConfig);
 

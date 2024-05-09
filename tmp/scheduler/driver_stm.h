@@ -7,6 +7,7 @@
 
 typedef struct
 {
+        uint8 f_100us;
         uint8 f_1ms;
         uint8 f_10ms;
         uint8 f_100ms;
