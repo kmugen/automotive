@@ -8,16 +8,21 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include uart/subdir.mk
--include scheduler/subdir.mk
--include pwmHl/subdir.mk
--include pid/subdir.mk
--include motor/subdir.mk
--include gpio/subdir.mk
--include encoder/subdir.mk
+-include src/tc275/uart/subdir.mk
+-include src/tc275/pwmHl/subdir.mk
+-include src/tc275/gpio/subdir.mk
+-include src/tc275/extIrq/subdir.mk
+-include src/tc275/delay/subdir.mk
+-include src/tc275/adc/subdir.mk
+-include src/hardware/motor/subdir.mk
+-include src/hardware/encoder/subdir.mk
+-include src/app/scheduler/subdir.mk
+-include src/app/pid/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/_PinMap/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/_Impl/subdir.mk
+-include Libraries/iLLD/TC27D/Tricore/Vadc/Std/subdir.mk
+-include Libraries/iLLD/TC27D/Tricore/Vadc/Adc/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Stm/Std/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Src/Std/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Scu/Std/subdir.mk

@@ -44,14 +44,19 @@ Libraries/iLLD/TC27D/Tricore/Port/Std \
 Libraries/iLLD/TC27D/Tricore/Scu/Std \
 Libraries/iLLD/TC27D/Tricore/Src/Std \
 Libraries/iLLD/TC27D/Tricore/Stm/Std \
+Libraries/iLLD/TC27D/Tricore/Vadc/Adc \
+Libraries/iLLD/TC27D/Tricore/Vadc/Std \
 Libraries/iLLD/TC27D/Tricore/_Impl \
 Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling \
 Libraries/iLLD/TC27D/Tricore/_PinMap \
-encoder \
-gpio \
-motor \
-pid \
-pwmHl \
-scheduler \
-uart \
+src/app/pid \
+src/app/scheduler \
+src/hardware/encoder \
+src/hardware/motor \
+src/tc275/adc \
+src/tc275/delay \
+src/tc275/extIrq \
+src/tc275/gpio \
+src/tc275/pwmHl \
+src/tc275/uart \
 

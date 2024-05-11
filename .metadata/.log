@@ -356,3 +356,183 @@ Caused by: java.net.MalformedURLException: no protocol:
 
 !ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:19:21.659
 !MESSAGE Include paths were discovered in 31 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:25:28.391
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 916 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:25:28.416
+!MESSAGE Include paths were discovered in 24 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:25:46.309
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 1028 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:25:46.339
+!MESSAGE Include paths were discovered in 29 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:26:12.266
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 854 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:26:12.289
+!MESSAGE Include paths were discovered in 22 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:26:34.385
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:26:34.386
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 0 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:26:34.415
+!MESSAGE Include paths were discovered in 28 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:27:06.703
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 943 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:27:06.732
+!MESSAGE Include paths were discovered in 28 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:27:24.460
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 863 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:27:24.486
+!MESSAGE Include paths were discovered in 24 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:27:51.005
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 851 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:27:51.028
+!MESSAGE Include paths were discovered in 22 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:28:13.748
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 843 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:28:13.777
+!MESSAGE Include paths were discovered in 27 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:28:28.630
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 842 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:28:28.654
+!MESSAGE Include paths were discovered in 22 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:29:06.578
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 845 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:29:06.603
+!MESSAGE Include paths were discovered in 25 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:29:20.640
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 843 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:29:20.671
+!MESSAGE Include paths were discovered in 30 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:33:03.084
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 860 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:33:03.117
+!MESSAGE Include paths were discovered in 32 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:33:26.330
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 826 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:33:26.355
+!MESSAGE Include paths were discovered in 24 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:33:46.025
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:33:46.026
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 1 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:33:46.052
+!MESSAGE Include paths were discovered in 25 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:34:13.481
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 851 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:34:13.509
+!MESSAGE Include paths were discovered in 27 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:34:34.362
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 113 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:34:34.390
+!MESSAGE Include paths were discovered in 26 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:34:55.391
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 838 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:34:55.415
+!MESSAGE Include paths were discovered in 23 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:35:18.626
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 119 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:35:18.652
+!MESSAGE Include paths were discovered in 25 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:35:44.950
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 118 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:35:44.975
+!MESSAGE Include paths were discovered in 24 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:36:19.716
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 950 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:36:19.748
+!MESSAGE Include paths were discovered in 32 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:37:17.999
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 866 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:37:18.027
+!MESSAGE Include paths were discovered in 26 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:37:35.649
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 777 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:37:35.677
+!MESSAGE Include paths were discovered in 27 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:37:38.863
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 838 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:37:38.894
+!MESSAGE Include paths were discovered in 29 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:38:42.095
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 881 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:38:42.120
+!MESSAGE Include paths were discovered in 24 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:56:01.765
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 1341 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:56:01.801
+!MESSAGE Include paths were discovered in 34 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:57:05.425
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 150 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:57:05.464
+!MESSAGE Include paths were discovered in 36 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:57:57.058
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 858 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:57:57.085
+!MESSAGE Include paths were discovered in 25 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:58:21.409
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 960 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:58:21.441
+!MESSAGE Include paths were discovered in 32 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:58:46.343
+!MESSAGE Boosting configuration TriCore Debug (TASKING) of project tmp boosted in 859 milliseconds. (incremental boost)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2024-05-11 15:58:46.367
+!MESSAGE Include paths were discovered in 23 milliseconds.

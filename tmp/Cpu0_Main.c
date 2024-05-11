@@ -52,6 +52,7 @@ void core0_main(void)
 
     initMotor();
     initEncoder();
+    initUart();
     initStm();
     IfxCpu_enableInterrupts();
 

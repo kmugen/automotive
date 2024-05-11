@@ -74,8 +74,8 @@ Cpu0_Main.o :	c:/myTC275/automotive/tmp/Libraries/Infra/Sfr/TC27D/_Reg/IfxPort_r
 c:/myTC275/automotive/tmp/Libraries/Infra/Sfr/TC27D/_Reg/IfxPort_regdef.h :
 Cpu0_Main.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h
 c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h :
-Cpu0_Main.o :	c:/myTC275/automotive/tmp/scheduler/driver_stm.h
-c:/myTC275/automotive/tmp/scheduler/driver_stm.h :
+Cpu0_Main.o :	c:/myTC275/automotive/tmp/src/app/scheduler/driver_stm.h
+c:/myTC275/automotive/tmp/src/app/scheduler/driver_stm.h :
 Cpu0_Main.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h
 c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h :
 Cpu0_Main.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.h
@@ -90,9 +90,9 @@ Cpu0_Main.o :	c:/myTC275/automotive/tmp/Libraries/Infra/Sfr/TC27D/_Reg/IfxCbs_re
 c:/myTC275/automotive/tmp/Libraries/Infra/Sfr/TC27D/_Reg/IfxCbs_regdef.h :
 Cpu0_Main.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.h
 c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Cpu/Irq/IfxCpu_Irq.h :
-Cpu0_Main.o :	c:/myTC275/automotive/tmp/scheduler/AppScheduling.h
-c:/myTC275/automotive/tmp/scheduler/AppScheduling.h :
-Cpu0_Main.o :	c:/myTC275/automotive/tmp/encoder/encoder.h
-c:/myTC275/automotive/tmp/encoder/encoder.h :
-Cpu0_Main.o :	c:/myTC275/automotive/tmp/motor/motor.h
-c:/myTC275/automotive/tmp/motor/motor.h :
+Cpu0_Main.o :	c:/myTC275/automotive/tmp/src/app/scheduler/AppScheduling.h
+c:/myTC275/automotive/tmp/src/app/scheduler/AppScheduling.h :
+Cpu0_Main.o :	c:/myTC275/automotive/tmp/src/hardware/encoder/encoder.h
+c:/myTC275/automotive/tmp/src/hardware/encoder/encoder.h :
+Cpu0_Main.o :	c:/myTC275/automotive/tmp/src/hardware/motor/motor.h
+c:/myTC275/automotive/tmp/src/hardware/motor/motor.h :
