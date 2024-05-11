@@ -6,6 +6,7 @@
 
 #include "motor.h"
 #include "encoder.h"
+#include "pid.h"
 
 #define RPS_MAX     654.32f
 #define V_MAX       12
@@ -13,7 +14,7 @@
 #define V_PER_RPS   1 / RPS_PER_V
 #define PI          3.141592f
 #define T_S         0.001f
-#define W_SS        120 * PI
+#define W_SS        20 * PI
 #define MS_PER_SEC  1000
 
 typedef struct
@@ -31,8 +32,8 @@ static void Task100ms(void);
 
 TestCnt stTestCnt;
 
-const float32 Kp = 1;
-const float32 Ki = 10;
+const float32 Kp = 0.01;
+const float32 Ki = 0.01;
 
 float32 w;
 float32 w_ref;
@@ -50,59 +51,49 @@ static void Task100us(void)
     {
         stTestCnt.cnt_1ms++;
     }
-    if (stTestCnt.cnt_100us < 40000 || stTestCnt.cnt_100us >= 410000)
+    if (stTestCnt.cnt_100us < 50000 || stTestCnt.cnt_100us >= 200000)
     {
         w_ref = 0;
     }
-    else if (stTestCnt.cnt_100us < 190000)
+    else if (stTestCnt.cnt_100us < 100000)
     {
-        w_ref = W_SS / 15 * (((float32)stTestCnt.cnt_100us / 10000) - 4);
+        w_ref = W_SS / 5 * (((float32)stTestCnt.cnt_100us / 10000) - 5);
     }
-    else if (stTestCnt.cnt_100us < 260000)
+    else if (stTestCnt.cnt_100us < 150000)
     {
         w_ref = W_SS;
     }
-    else if (stTestCnt.cnt_100us < 410000)
+    else if (stTestCnt.cnt_100us < 200000)
     {
-        w_ref = W_SS / 15 * (41 - ((float32)stTestCnt.cnt_100us / 10000));
+        w_ref = W_SS / 5 * (20 - ((float32)stTestCnt.cnt_100us / 10000));
     }
-//    if (w_ref > 0)
-//    {
-////        w_lpf = lowPassFilter(w_ref);
-//
+    if (w_ref > 0)
+    {
+        w_lpf = lowPassFilter(w_ref);
+
         cur_theta = getEncoderPos();
         w = (cur_theta - prev_theta) * 10000;
         prev_theta = cur_theta;
-//
-////        w_err = w_lpf - w;
-//
-//        w_err = w_ref - w;
-//
-//        int_w_err += w_err * 0.001;
-//        if (int_w_err > 10)
-//        {
-//            int_w_err = 10;
-//        }
-//        if (int_w_err < -10)
-//        {
-//            int_w_err = -10;
-//        }
-//
-//        v_in = (Kp * w_err) + (Ki * int_w_err);
-//    }
-//    else
-//    {
-//        v_in = 0;
-//    }
-//
-//    if (v_in > 12)
-//    {
-//        v_in = 12;
-//    }
-//    else if (v_in < 0)
-//    {
-//        v_in = 0;
-//    }
+
+        w_err = w_lpf - w;
+
+        w_err = w_ref - w;
+
+        v_in = pidController(0, w_err);
+    }
+    else
+    {
+        v_in = 0;
+    }
+
+    if (v_in > 12)
+    {
+        v_in = 12;
+    }
+    else if (v_in < 0)
+    {
+        v_in = 0;
+    }
 
 
 

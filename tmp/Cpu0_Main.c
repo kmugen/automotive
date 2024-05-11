@@ -55,6 +55,8 @@ void core0_main(void)
     initStm();
     IfxCpu_enableInterrupts();
 
+
+
     while(1)
     {
         countEncoderTicks();

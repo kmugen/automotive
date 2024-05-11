@@ -98,3 +98,5 @@ scheduler/AppScheduling.o :	c:/myTC275/automotive/tmp/motor/motor.h
 c:/myTC275/automotive/tmp/motor/motor.h :
 scheduler/AppScheduling.o :	c:/myTC275/automotive/tmp/encoder/encoder.h
 c:/myTC275/automotive/tmp/encoder/encoder.h :
+scheduler/AppScheduling.o :	c:/myTC275/automotive/tmp/pid/pid.h
+c:/myTC275/automotive/tmp/pid/pid.h :
