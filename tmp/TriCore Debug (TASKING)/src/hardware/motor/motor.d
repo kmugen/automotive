@@ -16,6 +16,10 @@ src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tric
 c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Platform_Types.h :
 src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_TypesTasking.h
 c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_TypesTasking.h :
+src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/src/tc275/gpio/gpio.h
+c:/myTC275/automotive/tmp/src/tc275/gpio/gpio.h :
+src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
+c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :
 src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
 c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
 src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.h
@@ -46,8 +50,6 @@ src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/Libraries/Infra/Sfr/TC27D
 c:/myTC275/automotive/tmp/Libraries/Infra/Sfr/TC27D/_Reg/IfxScu_regdef.h :
 src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.asm.h
 c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.asm.h :
-src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
-c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :
 src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
 c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
 src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/src/tc275/pwmHl/pwmHl.h

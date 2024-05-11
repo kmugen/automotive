@@ -1,0 +1,21 @@
+#include "motor.h"
+#include "gpio.h"
+#include "pwmHl.h"
+
+#include "pinSettings.h"
+
+void initMotors(void)
+{
+    GtmTomPwmHl_init();
+
+    setPinOutput(DIR_CHB);
+    setPinState(DIR_CHB, CW);
+    setPinOutput(BRAKE_CHB);
+    setPinState(BRAKE_CHB, FALSE);
+}
+
+void setMotorPower(float32 power)
+{
+    g_GtmTomPwmHl.tOn[0] = g_GtmTomPwmHl.tOn[1] = power;
+    GtmTomPwmHl_run();
+}

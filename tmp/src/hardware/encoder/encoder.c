@@ -4,6 +4,7 @@
 #include "encoder.h"
 #include "gpio.h"
 #include "Platform_Types.h"
+#include "pinSettings.h"
 
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
@@ -19,60 +20,93 @@
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
-sint32 g_cnt_ticks = 0;
-sint8 g_encoder_dir = CW;
+sint32 g_ticks_chA = 0;
+sint8 g_dir_chA = CW;
+
+sint32 g_ticks_chB = 0;
+sint8 g_dir_chB = CW;
+
+boolean g_cur_chA_1;
+boolean g_cur_chA_2;
+boolean g_prev_chA_1;
+boolean g_prev_chA_2;
+boolean g_cur_chB_1;
+boolean g_cur_chB_2;
+boolean g_prev_chB_1;
+boolean g_prev_chB_2;
 
 /*********************************************************************************************************************/
 /*---------------------------------------------Function Implementations----------------------------------------------*/
 /*********************************************************************************************************************/
 
-void initEncoder(void)
+void initEncoders(void)
 {
-    setPinInput(PIN_CH_A);
-    setPinInput(PIN_CH_B);
+    setPinInput(PIN_ENCODER_CHA_1);
+    setPinInput(PIN_ENCODER_CHA_2);
+    setPinInput(PIN_ENCODER_CHB_1);
+    setPinInput(PIN_ENCODER_CHB_2);
 }
 
 void countEncoderTicks(void)
 {
-    static boolean prev_ch_A = FALSE;
-    static boolean prev_ch_B = FALSE;
-    static boolean cur_ch_A = FALSE;
-    static boolean cur_ch_B = FALSE;
-
-    cur_ch_A = getPinState(PIN_CH_A);
-    cur_ch_B = getPinState(PIN_CH_B);
+    g_cur_chA_1 = getPinState(PIN_ENCODER_CHA_1);
+    g_cur_chA_2 = getPinState(PIN_ENCODER_CHA_2);
 
     /* 채널 A 상승 엣지, 방향 결정 */
-    if ((prev_ch_A == FALSE) && (cur_ch_A == TRUE))
+    if ((g_prev_chA_1 == FALSE) && (g_cur_chA_1 == TRUE))
     {
-        g_encoder_dir = (cur_ch_B == FALSE) ? CW : CCW;
+        g_dir_chA = (g_cur_chA_2 == FALSE) ? CW : CCW;
     }
 
-    if (prev_ch_A != cur_ch_A)
+    if (g_prev_chA_1 != g_cur_chA_1)
     {
-        g_cnt_ticks += g_encoder_dir;
+        g_ticks_chA += g_dir_chA;
     }
 
-    if (prev_ch_B != cur_ch_B)
+    if (g_prev_chA_2 != g_cur_chA_2)
     {
-        g_cnt_ticks += g_encoder_dir;
+        g_ticks_chA += g_dir_chA;
     }
 
-    prev_ch_A = cur_ch_A;
-    prev_ch_B = cur_ch_B;
+    g_prev_chA_1 = g_cur_chA_1;
+    g_prev_chA_2 = g_cur_chA_2;
+
+    g_cur_chB_1 = getPinState(PIN_ENCODER_CHB_1);
+    g_cur_chB_2 = getPinState(PIN_ENCODER_CHB_2);
+
+    /* 채널 A 상승 엣지, 방향 결정 */
+    if ((g_prev_chB_1 == FALSE) && (g_cur_chB_1 == TRUE))
+    {
+        g_dir_chB = (g_cur_chB_2 == FALSE) ? CW : CCW;
+    }
+
+    if (g_prev_chB_1 != g_cur_chB_1)
+    {
+        g_ticks_chB += g_dir_chB;
+    }
+
+    if (g_prev_chB_2 != g_cur_chB_2)
+    {
+        g_ticks_chB += g_dir_chB;
+    }
+
+    g_prev_chB_1 = g_cur_chB_1;
+    g_prev_chB_2 = g_cur_chB_2;
+
+
 }
 
-sint32 getEncoderTicks(void)
+sint32 getEncoderTicks(uint8 chn)
 {
-    return g_cnt_ticks;
+    return ((chn == 0) ? g_ticks_chA :g_ticks_chB);
 }
 
-float32 getEncoderPos(void)
+float32 getEncoderPos(uint8 chn)
 {
-    return g_cnt_ticks * REV_PER_TICK;
+    return ((chn == 0) ? g_ticks_chA :g_ticks_chB) * REV_PER_TICK;
 }
 
-sint8 getEncoderDir(void)
+sint8 getEncoderDir(uint8 chn)
 {
-    return g_encoder_dir;
+    return ((chn == 0) ? g_dir_chA :g_dir_chB);
 }

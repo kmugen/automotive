@@ -72,7 +72,7 @@ static void Task100us(void)
     {
         w_lpf = lowPassFilter(w_ref);
 
-        cur_theta = getEncoderPos();
+        cur_theta = getEncoderPos(0);
         w = (cur_theta - prev_theta) * 10000;
         prev_theta = cur_theta;
 
@@ -102,7 +102,7 @@ static void Task100us(void)
 
 
 
-    setMotorPower(v_in / V_MAX);
+    setMotorsPower(0, 0);
 }
 
 static void Task1ms(void)

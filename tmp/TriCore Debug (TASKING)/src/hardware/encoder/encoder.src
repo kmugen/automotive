@@ -1,40 +1,54 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc25348a --dep-file=src/hardware/encoder/encoder.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\myTC275\\\\automotive\\\\tmp -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Configurations -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app\\\\lpf -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app\\\\observer -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app\\\\pid -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app\\\\scheduler -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\hardware -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\hardware\\\\encoder -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\hardware\\\\motor -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275 -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\adc -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\delay -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\extIrq -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\gpio -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\pwmHl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\uart -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o src/hardware/encoder/encoder.src ../src/hardware/encoder/encoder.c"
+	.compiler_invocation	"ctc -f cc18904a --dep-file=src/hardware/encoder/encoder.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\myTC275\\\\automotive\\\\tmp -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Configurations -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app\\\\lpf -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app\\\\observer -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app\\\\pid -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app\\\\scheduler -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\hardware -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\hardware\\\\encoder -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\hardware\\\\motor -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275 -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\adc -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\delay -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\extIrq -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\gpio -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\pwmHl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\uart -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o src/hardware/encoder/encoder.src ../src/hardware/encoder/encoder.c"
 	.compiler_name		"ctc"
 	;source	'../src/hardware/encoder/encoder.c'
 
 	
 $TC16X
 	
-	.sdecl	'.text.encoder.initEncoder',code,cluster('initEncoder')
-	.sect	'.text.encoder.initEncoder'
+	.sdecl	'.text.encoder.initEncoders',code,cluster('initEncoders')
+	.sect	'.text.encoder.initEncoders'
 	.align	2
 	
-	.global	initEncoder
-; Function initEncoder
-.L20:
-initEncoder:	.type	func
+	.global	initEncoders
+; Function initEncoders
+.L40:
+initEncoders:	.type	func
+	movh.a	a15,#@his(IfxPort_P15_0)
+	lea	a15,[a15]@los(IfxPort_P15_0)
+	ld.d	e4,[a15]0
+.L104:
+	mov	d6,#16
+	call	setPinMode
+.L105:
 	movh.a	a15,#@his(IfxPort_P15_1)
 	lea	a15,[a15]@los(IfxPort_P15_1)
 	ld.d	e4,[a15]0
-.L64:
+.L109:
 	mov	d6,#16
 	call	setPinMode
-.L65:
-	movh.a	a15,#@his(IfxPort_P15_4)
-	lea	a15,[a15]@los(IfxPort_P15_4)
+.L110:
+	movh.a	a15,#@his(IfxPort_P33_9)
+	lea	a15,[a15]@los(IfxPort_P33_9)
 	ld.d	e4,[a15]0
-.L69:
+.L111:
 	mov	d6,#16
 	call	setPinMode
-.L70:
+.L112:
+	movh.a	a15,#@his(IfxPort_P33_8)
+	lea	a15,[a15]@los(IfxPort_P33_8)
+	ld.d	e4,[a15]0
+.L113:
+	mov	d6,#16
+	call	setPinMode
+.L114:
 	ret
-.L62:
+.L102:
 	
-__initEncoder_function_end:
-	.size	initEncoder,__initEncoder_function_end-initEncoder
-.L37:
+__initEncoders_function_end:
+	.size	initEncoders,__initEncoders_function_end-initEncoders
+.L57:
 	; End of function
 	
 	.sdecl	'.text.encoder.countEncoderTicks',code,cluster('countEncoderTicks')
@@ -43,24 +57,24 @@ __initEncoder_function_end:
 	
 	.global	countEncoderTicks
 ; Function countEncoderTicks
-.L22:
+.L42:
 countEncoderTicks:	.type	func
-	movh.a	a15,#@his(IfxPort_P15_1)
-	lea	a15,[a15]@los(IfxPort_P15_1)
+	movh.a	a15,#@his(IfxPort_P15_0)
+	lea	a15,[a15]@los(IfxPort_P15_0)
 	ld.d	e0,[a15]0
-.L78:
+.L124:
 	mov	d15,d0
 	mov.a	a15,d15
-.L127:
+.L190:
 	extr.u	d0,d1,#0,#8
-.L86:
+.L132:
 	ld.w	d15,[a15]36
 	extr.u	d15,d15,d0,#1
-.L128:
+.L191:
 	jeq	d15,#0,.L2
-.L129:
+.L192:
 	mov	d15,#1
-.L130:
+.L193:
 	j	.L3
 .L2:
 	mov	d15,#0
@@ -69,27 +83,27 @@ countEncoderTicks:	.type	func
 .L4:
 	j	.L5
 .L5:
-	movh.a	a15,#@his(_999003_cur_ch_A)
-	lea	a15,[a15]@los(_999003_cur_ch_A)
-.L83:
+	movh.a	a15,#@his(g_cur_chA_1)
+	lea	a15,[a15]@los(g_cur_chA_1)
+.L129:
 	st.b	[a15],d15
-.L84:
-	movh.a	a15,#@his(IfxPort_P15_4)
-	lea	a15,[a15]@los(IfxPort_P15_4)
+.L130:
+	movh.a	a15,#@his(IfxPort_P15_1)
+	lea	a15,[a15]@los(IfxPort_P15_1)
 	ld.d	e0,[a15]0
-.L93:
+.L139:
 	mov	d15,d0
 	mov.a	a15,d15
-.L131:
+.L194:
 	extr.u	d0,d1,#0,#8
-.L99:
+.L145:
 	ld.w	d15,[a15]36
 	extr.u	d15,d15,d0,#1
-.L132:
+.L195:
 	jeq	d15,#0,.L6
-.L133:
+.L196:
 	mov	d0,#1
-.L134:
+.L197:
 	j	.L7
 .L6:
 	mov	d0,#0
@@ -98,107 +112,255 @@ countEncoderTicks:	.type	func
 .L8:
 	j	.L9
 .L9:
-	movh.a	a15,#@his(_999004_cur_ch_B)
-	lea	a15,[a15]@los(_999004_cur_ch_B)
-.L95:
+	movh.a	a15,#@his(g_cur_chA_2)
+	lea	a15,[a15]@los(g_cur_chA_2)
+.L141:
 	st.b	[a15],d0
-.L96:
-	movh.a	a15,#@his(_999001_prev_ch_A)
-	lea	a15,[a15]@los(_999001_prev_ch_A)
+.L142:
+	movh.a	a15,#@his(g_prev_chA_1)
+	lea	a15,[a15]@los(g_prev_chA_1)
 	ld.bu	d15,[a15]
-.L135:
+.L198:
 	jne	d15,#0,.L10
-.L136:
-	movh.a	a15,#@his(_999003_cur_ch_A)
-	lea	a15,[a15]@los(_999003_cur_ch_A)
+.L199:
+	movh.a	a15,#@his(g_cur_chA_1)
+	lea	a15,[a15]@los(g_cur_chA_1)
 	ld.bu	d15,[a15]
-.L137:
+.L200:
 	jne	d15,#1,.L11
-.L97:
+.L143:
 	jne	d0,#0,.L12
-.L98:
+.L144:
 	mov	d15,#1
-.L138:
+.L201:
 	j	.L13
 .L12:
 	mov	d15,#-1
 .L13:
-	movh.a	a15,#@his(g_encoder_dir)
-	lea	a15,[a15]@los(g_encoder_dir)
-.L139:
+	movh.a	a15,#@his(g_dir_chA)
+	lea	a15,[a15]@los(g_dir_chA)
+.L202:
 	st.b	[a15],d15
 .L11:
 .L10:
-	movh.a	a15,#@his(_999001_prev_ch_A)
-	lea	a15,[a15]@los(_999001_prev_ch_A)
+	movh.a	a15,#@his(g_prev_chA_1)
+	lea	a15,[a15]@los(g_prev_chA_1)
 	ld.bu	d15,[a15]
-.L140:
-	movh.a	a15,#@his(_999003_cur_ch_A)
-	lea	a15,[a15]@los(_999003_cur_ch_A)
+.L203:
+	movh.a	a15,#@his(g_cur_chA_1)
+	lea	a15,[a15]@los(g_cur_chA_1)
 	ld.bu	d0,[a15]
-.L141:
+.L204:
 	jeq	d15,d0,.L14
-.L142:
-	movh.a	a15,#@his(g_cnt_ticks)
-	lea	a15,[a15]@los(g_cnt_ticks)
-	movh.a	a2,#@his(g_cnt_ticks)
-	lea	a2,[a2]@los(g_cnt_ticks)
+.L205:
+	movh.a	a15,#@his(g_ticks_chA)
+	lea	a15,[a15]@los(g_ticks_chA)
+	movh.a	a2,#@his(g_ticks_chA)
+	lea	a2,[a2]@los(g_ticks_chA)
 	ld.w	d15,[a2]
-.L143:
-	movh.a	a2,#@his(g_encoder_dir)
-	lea	a2,[a2]@los(g_encoder_dir)
+.L206:
+	movh.a	a2,#@his(g_dir_chA)
+	lea	a2,[a2]@los(g_dir_chA)
 	ld.b	d0,[a2]0
-.L144:
+.L207:
 	add	d15,d0
 	st.w	[a15],d15
 .L14:
-	movh.a	a15,#@his(_999002_prev_ch_B)
-	lea	a15,[a15]@los(_999002_prev_ch_B)
+	movh.a	a15,#@his(g_prev_chA_2)
+	lea	a15,[a15]@los(g_prev_chA_2)
 	ld.bu	d15,[a15]
-.L145:
-	movh.a	a15,#@his(_999004_cur_ch_B)
-	lea	a15,[a15]@los(_999004_cur_ch_B)
+.L208:
+	movh.a	a15,#@his(g_cur_chA_2)
+	lea	a15,[a15]@los(g_cur_chA_2)
 	ld.bu	d0,[a15]
-.L146:
+.L209:
 	jeq	d15,d0,.L15
-.L147:
-	movh.a	a15,#@his(g_cnt_ticks)
-	lea	a15,[a15]@los(g_cnt_ticks)
-	movh.a	a2,#@his(g_cnt_ticks)
-	lea	a2,[a2]@los(g_cnt_ticks)
+.L210:
+	movh.a	a15,#@his(g_ticks_chA)
+	lea	a15,[a15]@los(g_ticks_chA)
+	movh.a	a2,#@his(g_ticks_chA)
+	lea	a2,[a2]@los(g_ticks_chA)
 	ld.w	d15,[a2]
-.L148:
-	movh.a	a2,#@his(g_encoder_dir)
-	lea	a2,[a2]@los(g_encoder_dir)
+.L211:
+	movh.a	a2,#@his(g_dir_chA)
+	lea	a2,[a2]@los(g_dir_chA)
 	ld.b	d0,[a2]0
-.L149:
+.L212:
 	add	d15,d0
 	st.w	[a15],d15
 .L15:
-	movh.a	a15,#@his(_999001_prev_ch_A)
-	lea	a15,[a15]@los(_999001_prev_ch_A)
-.L150:
-	movh.a	a2,#@his(_999003_cur_ch_A)
-	lea	a2,[a2]@los(_999003_cur_ch_A)
+	movh.a	a15,#@his(g_prev_chA_1)
+	lea	a15,[a15]@los(g_prev_chA_1)
+.L213:
+	movh.a	a2,#@his(g_cur_chA_1)
+	lea	a2,[a2]@los(g_cur_chA_1)
 	ld.bu	d15,[a2]
+.L214:
+	st.b	[a15],d15
+.L215:
+	movh.a	a15,#@his(g_prev_chA_2)
+	lea	a15,[a15]@los(g_prev_chA_2)
+.L216:
+	movh.a	a2,#@his(g_cur_chA_2)
+	lea	a2,[a2]@los(g_cur_chA_2)
+	ld.bu	d15,[a2]
+.L217:
+	st.b	[a15],d15
+.L218:
+	movh.a	a15,#@his(IfxPort_P33_9)
+	lea	a15,[a15]@los(IfxPort_P33_9)
+	ld.d	e0,[a15]0
+.L147:
+	mov	d15,d0
+	mov.a	a15,d15
+.L219:
+	extr.u	d0,d1,#0,#8
 .L151:
+	ld.w	d15,[a15]36
+	extr.u	d15,d15,d0,#1
+.L220:
+	jeq	d15,#0,.L16
+.L221:
+	mov	d15,#1
+.L222:
+	j	.L17
+.L16:
+	mov	d15,#0
+.L17:
+	j	.L18
+.L18:
+	j	.L19
+.L19:
+	movh.a	a15,#@his(g_cur_chB_1)
+	lea	a15,[a15]@los(g_cur_chB_1)
+.L149:
 	st.b	[a15],d15
-.L152:
-	movh.a	a15,#@his(_999002_prev_ch_B)
-	lea	a15,[a15]@los(_999002_prev_ch_B)
+.L150:
+	movh.a	a15,#@his(IfxPort_P33_8)
+	lea	a15,[a15]@los(IfxPort_P33_8)
+	ld.d	e0,[a15]0
 .L153:
-	movh.a	a2,#@his(_999004_cur_ch_B)
-	lea	a2,[a2]@los(_999004_cur_ch_B)
-	ld.bu	d15,[a2]
-.L154:
-	st.b	[a15],d15
+	mov	d15,d0
+	mov.a	a15,d15
+.L223:
+	extr.u	d0,d1,#0,#8
+.L159:
+	ld.w	d15,[a15]36
+	extr.u	d15,d15,d0,#1
+.L224:
+	jeq	d15,#0,.L20
+.L225:
+	mov	d0,#1
+.L226:
+	j	.L21
+.L20:
+	mov	d0,#0
+.L21:
+	j	.L22
+.L22:
+	j	.L23
+.L23:
+	movh.a	a15,#@his(g_cur_chB_2)
+	lea	a15,[a15]@los(g_cur_chB_2)
 .L155:
+	st.b	[a15],d0
+.L156:
+	movh.a	a15,#@his(g_prev_chB_1)
+	lea	a15,[a15]@los(g_prev_chB_1)
+	ld.bu	d15,[a15]
+.L227:
+	jne	d15,#0,.L24
+.L228:
+	movh.a	a15,#@his(g_cur_chB_1)
+	lea	a15,[a15]@los(g_cur_chB_1)
+	ld.bu	d15,[a15]
+.L229:
+	jne	d15,#1,.L25
+.L157:
+	jne	d0,#0,.L26
+.L158:
+	mov	d15,#1
+.L230:
+	j	.L27
+.L26:
+	mov	d15,#-1
+.L27:
+	movh.a	a15,#@his(g_dir_chB)
+	lea	a15,[a15]@los(g_dir_chB)
+.L231:
+	st.b	[a15],d15
+.L25:
+.L24:
+	movh.a	a15,#@his(g_prev_chB_1)
+	lea	a15,[a15]@los(g_prev_chB_1)
+	ld.bu	d15,[a15]
+.L232:
+	movh.a	a15,#@his(g_cur_chB_1)
+	lea	a15,[a15]@los(g_cur_chB_1)
+	ld.bu	d0,[a15]
+.L233:
+	jeq	d15,d0,.L28
+.L234:
+	movh.a	a15,#@his(g_ticks_chB)
+	lea	a15,[a15]@los(g_ticks_chB)
+	movh.a	a2,#@his(g_ticks_chB)
+	lea	a2,[a2]@los(g_ticks_chB)
+	ld.w	d15,[a2]
+.L235:
+	movh.a	a2,#@his(g_dir_chB)
+	lea	a2,[a2]@los(g_dir_chB)
+	ld.b	d0,[a2]0
+.L236:
+	add	d15,d0
+	st.w	[a15],d15
+.L28:
+	movh.a	a15,#@his(g_prev_chB_2)
+	lea	a15,[a15]@los(g_prev_chB_2)
+	ld.bu	d15,[a15]
+.L237:
+	movh.a	a15,#@his(g_cur_chB_2)
+	lea	a15,[a15]@los(g_cur_chB_2)
+	ld.bu	d0,[a15]
+.L238:
+	jeq	d15,d0,.L29
+.L239:
+	movh.a	a15,#@his(g_ticks_chB)
+	lea	a15,[a15]@los(g_ticks_chB)
+	movh.a	a2,#@his(g_ticks_chB)
+	lea	a2,[a2]@los(g_ticks_chB)
+	ld.w	d15,[a2]
+.L240:
+	movh.a	a2,#@his(g_dir_chB)
+	lea	a2,[a2]@los(g_dir_chB)
+	ld.b	d0,[a2]0
+.L241:
+	add	d15,d0
+	st.w	[a15],d15
+.L29:
+	movh.a	a15,#@his(g_prev_chB_1)
+	lea	a15,[a15]@los(g_prev_chB_1)
+.L242:
+	movh.a	a2,#@his(g_cur_chB_1)
+	lea	a2,[a2]@los(g_cur_chB_1)
+	ld.bu	d15,[a2]
+.L243:
+	st.b	[a15],d15
+.L244:
+	movh.a	a15,#@his(g_prev_chB_2)
+	lea	a15,[a15]@los(g_prev_chB_2)
+.L245:
+	movh.a	a2,#@his(g_cur_chB_2)
+	lea	a2,[a2]@los(g_cur_chB_2)
+	ld.bu	d15,[a2]
+.L246:
+	st.b	[a15],d15
+.L247:
 	ret
-.L75:
+.L122:
 	
 __countEncoderTicks_function_end:
 	.size	countEncoderTicks,__countEncoderTicks_function_end-countEncoderTicks
-.L52:
+.L72:
 	; End of function
 	
 	.sdecl	'.text.encoder.getEncoderTicks',code,cluster('getEncoderTicks')
@@ -207,20 +369,28 @@ __countEncoderTicks_function_end:
 	
 	.global	getEncoderTicks
 ; Function getEncoderTicks
-.L24:
+.L44:
 getEncoderTicks:	.type	func
-	movh.a	a15,#@his(g_cnt_ticks)
-	lea	a15,[a15]@los(g_cnt_ticks)
+	jne	d4,#0,.L30
+.L252:
+	movh.a	a15,#@his(g_ticks_chA)
+	lea	a15,[a15]@los(g_ticks_chA)
 	ld.w	d2,[a15]
-.L160:
-	j	.L16
-.L16:
+.L253:
+	j	.L31
+.L30:
+	movh.a	a15,#@his(g_ticks_chB)
+	lea	a15,[a15]@los(g_ticks_chB)
+	ld.w	d2,[a15]
+.L31:
+	j	.L32
+.L32:
 	ret
-.L102:
+.L162:
 	
 __getEncoderTicks_function_end:
 	.size	getEncoderTicks,__getEncoderTicks_function_end-getEncoderTicks
-.L57:
+.L77:
 	; End of function
 	
 	.sdecl	'.text.encoder.getEncoderPos',code,cluster('getEncoderPos')
@@ -229,29 +399,37 @@ __getEncoderTicks_function_end:
 	
 	.global	getEncoderPos
 ; Function getEncoderPos
-.L26:
+.L46:
 getEncoderPos:	.type	func
-	movh.a	a15,#@his(g_cnt_ticks)
-	lea	a15,[a15]@los(g_cnt_ticks)
+	jne	d4,#0,.L33
+.L176:
+	movh.a	a15,#@his(g_ticks_chA)
+	lea	a15,[a15]@los(g_ticks_chA)
 	ld.w	d15,[a15]
-.L115:
+.L177:
+	j	.L34
+.L33:
+	movh.a	a15,#@his(g_ticks_chB)
+	lea	a15,[a15]@los(g_ticks_chB)
+	ld.w	d15,[a15]
+.L34:
 	mul	d15,d15,#2
 	itof	d15,d15
-.L116:
+.L178:
 	mov	d0,#4056
 	addih	d0,d0,#16457
 	mul.f	d15,d15,d0
 	movh	d0,#16960
 	div.f	d2,d15,d0
-.L117:
-	j	.L17
-.L17:
+.L179:
+	j	.L35
+.L35:
 	ret
-.L72:
+.L116:
 	
 __getEncoderPos_function_end:
 	.size	getEncoderPos,__getEncoderPos_function_end-getEncoderPos
-.L42:
+.L62:
 	; End of function
 	
 	.sdecl	'.text.encoder.getEncoderDir',code,cluster('getEncoderDir')
@@ -260,77 +438,128 @@ __getEncoderPos_function_end:
 	
 	.global	getEncoderDir
 ; Function getEncoderDir
-.L28:
+.L48:
 getEncoderDir:	.type	func
-	movh.a	a15,#@his(g_encoder_dir)
-	lea	a15,[a15]@los(g_encoder_dir)
+	jne	d4,#0,.L36
+.L184:
+	movh.a	a15,#@his(g_dir_chA)
+	lea	a15,[a15]@los(g_dir_chA)
 	ld.b	d2,[a15]0
-.L122:
-	j	.L18
-.L18:
+.L185:
+	j	.L37
+.L36:
+	movh.a	a15,#@his(g_dir_chB)
+	lea	a15,[a15]@los(g_dir_chB)
+	ld.b	d2,[a15]0
+.L37:
+	j	.L38
+.L38:
 	ret
-.L74:
+.L120:
 	
 __getEncoderDir_function_end:
 	.size	getEncoderDir,__getEncoderDir_function_end-getEncoderDir
-.L47:
+.L67:
 	; End of function
 	
-	.sdecl	'.data.encoder.g_cnt_ticks',data,cluster('g_cnt_ticks')
-	.sect	'.data.encoder.g_cnt_ticks'
-	.global	g_cnt_ticks
+	.sdecl	'.data.encoder.g_ticks_chA',data,cluster('g_ticks_chA')
+	.sect	'.data.encoder.g_ticks_chA'
+	.global	g_ticks_chA
 	.align	2
-g_cnt_ticks:	.type	object
-	.size	g_cnt_ticks,4
+g_ticks_chA:	.type	object
+	.size	g_ticks_chA,4
 	.space	4
-	.sdecl	'.data.encoder.g_encoder_dir',data,cluster('g_encoder_dir')
-	.sect	'.data.encoder.g_encoder_dir'
-	.global	g_encoder_dir
-g_encoder_dir:	.type	object
-	.size	g_encoder_dir,1
+	.sdecl	'.data.encoder.g_dir_chA',data,cluster('g_dir_chA')
+	.sect	'.data.encoder.g_dir_chA'
+	.global	g_dir_chA
+g_dir_chA:	.type	object
+	.size	g_dir_chA,1
 	.byte	1
-	.sdecl	'.data.encoder._999001_prev_ch_A',data,cluster('_999001_prev_ch_A')
-	.sect	'.data.encoder._999001_prev_ch_A'
-_999001_prev_ch_A:	.type	object
-	.size	_999001_prev_ch_A,1
+	.sdecl	'.data.encoder.g_ticks_chB',data,cluster('g_ticks_chB')
+	.sect	'.data.encoder.g_ticks_chB'
+	.global	g_ticks_chB
+	.align	2
+g_ticks_chB:	.type	object
+	.size	g_ticks_chB,4
+	.space	4
+	.sdecl	'.data.encoder.g_dir_chB',data,cluster('g_dir_chB')
+	.sect	'.data.encoder.g_dir_chB'
+	.global	g_dir_chB
+g_dir_chB:	.type	object
+	.size	g_dir_chB,1
+	.byte	1
+	.sdecl	'.bss.encoder.g_cur_chA_1',data,cluster('g_cur_chA_1')
+	.sect	'.bss.encoder.g_cur_chA_1'
+	.global	g_cur_chA_1
+g_cur_chA_1:	.type	object
+	.size	g_cur_chA_1,1
 	.space	1
-	.sdecl	'.data.encoder._999002_prev_ch_B',data,cluster('_999002_prev_ch_B')
-	.sect	'.data.encoder._999002_prev_ch_B'
-_999002_prev_ch_B:	.type	object
-	.size	_999002_prev_ch_B,1
+	.sdecl	'.bss.encoder.g_cur_chA_2',data,cluster('g_cur_chA_2')
+	.sect	'.bss.encoder.g_cur_chA_2'
+	.global	g_cur_chA_2
+g_cur_chA_2:	.type	object
+	.size	g_cur_chA_2,1
 	.space	1
-	.sdecl	'.data.encoder._999003_cur_ch_A',data,cluster('_999003_cur_ch_A')
-	.sect	'.data.encoder._999003_cur_ch_A'
-_999003_cur_ch_A:	.type	object
-	.size	_999003_cur_ch_A,1
+	.sdecl	'.bss.encoder.g_prev_chA_1',data,cluster('g_prev_chA_1')
+	.sect	'.bss.encoder.g_prev_chA_1'
+	.global	g_prev_chA_1
+g_prev_chA_1:	.type	object
+	.size	g_prev_chA_1,1
 	.space	1
-	.sdecl	'.data.encoder._999004_cur_ch_B',data,cluster('_999004_cur_ch_B')
-	.sect	'.data.encoder._999004_cur_ch_B'
-_999004_cur_ch_B:	.type	object
-	.size	_999004_cur_ch_B,1
+	.sdecl	'.bss.encoder.g_prev_chA_2',data,cluster('g_prev_chA_2')
+	.sect	'.bss.encoder.g_prev_chA_2'
+	.global	g_prev_chA_2
+g_prev_chA_2:	.type	object
+	.size	g_prev_chA_2,1
 	.space	1
-	.calls	'initEncoder','setPinMode'
-	.calls	'initEncoder','',0
+	.sdecl	'.bss.encoder.g_cur_chB_1',data,cluster('g_cur_chB_1')
+	.sect	'.bss.encoder.g_cur_chB_1'
+	.global	g_cur_chB_1
+g_cur_chB_1:	.type	object
+	.size	g_cur_chB_1,1
+	.space	1
+	.sdecl	'.bss.encoder.g_cur_chB_2',data,cluster('g_cur_chB_2')
+	.sect	'.bss.encoder.g_cur_chB_2'
+	.global	g_cur_chB_2
+g_cur_chB_2:	.type	object
+	.size	g_cur_chB_2,1
+	.space	1
+	.sdecl	'.bss.encoder.g_prev_chB_1',data,cluster('g_prev_chB_1')
+	.sect	'.bss.encoder.g_prev_chB_1'
+	.global	g_prev_chB_1
+g_prev_chB_1:	.type	object
+	.size	g_prev_chB_1,1
+	.space	1
+	.sdecl	'.bss.encoder.g_prev_chB_2',data,cluster('g_prev_chB_2')
+	.sect	'.bss.encoder.g_prev_chB_2'
+	.global	g_prev_chB_2
+g_prev_chB_2:	.type	object
+	.size	g_prev_chB_2,1
+	.space	1
+	.calls	'initEncoders','setPinMode'
+	.calls	'initEncoders','',0
 	.calls	'countEncoderTicks','',0
 	.calls	'getEncoderTicks','',0
 	.calls	'getEncoderPos','',0
+	.extern	IfxPort_P15_0
 	.extern	IfxPort_P15_1
-	.extern	IfxPort_P15_4
+	.extern	IfxPort_P33_8
+	.extern	IfxPort_P33_9
 	.extern	setPinMode
 	.calls	'getEncoderDir','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L30:
-	.word	36073
+.L50:
+	.word	36122
 	.half	3
-	.word	.L31
+	.word	.L51
 	.byte	4
-.L29:
+.L49:
 	.byte	1
 	.byte	'../src/hardware/encoder/encoder.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L32
+	.word	.L52
 	.byte	2,1,1,3
 	.word	180
 	.byte	4
@@ -339,7 +568,7 @@ _999004_cur_ch_B:	.type	object
 	.word	183
 	.byte	6,0,7
 	.byte	'__fract',0,4,128,1
-.L71:
+.L115:
 	.byte	7
 	.byte	'float',0,4,4,8
 	.byte	'Ifx__float_to_fract',0,3,1,149,2,18
@@ -365,7 +594,7 @@ _999004_cur_ch_B:	.type	object
 	.byte	'value',0,2,143,1,43
 	.word	294
 	.byte	6,0
-.L76:
+.L117:
 	.byte	7
 	.byte	'unsigned char',0,1,8,7
 	.byte	'unsigned int',0,4,7,7
@@ -1713,20 +1942,20 @@ _999004_cur_ch_B:	.type	object
 	.word	7605
 	.byte	3
 	.word	8208
-.L85:
+.L131:
 	.byte	8
 	.byte	'IfxPort_getPinState',0,3,3,170,4,20
 	.word	412
 	.byte	1,1
-.L87:
+.L133:
 	.byte	5
 	.byte	'port',0,3,170,4,47
 	.word	8213
-.L89:
+.L135:
 	.byte	5
 	.byte	'pinIndex',0,3,170,4,59
 	.word	412
-.L91:
+.L137:
 	.byte	6,0,17,3,170,1,9,4,18
 	.byte	'IfxPort_State_notChanged',0,0,18
 	.byte	'IfxPort_State_high',0,1,18
@@ -1748,14 +1977,14 @@ _999004_cur_ch_B:	.type	object
 	.byte	'pinIndex',0
 	.word	412
 	.byte	1,2,35,4,0
-.L63:
+.L103:
 	.byte	4
 	.byte	'setPinInput',0,3,5,127,20,1,1
-.L66:
+.L106:
 	.byte	5
 	.byte	'pin',0,5,127,39
 	.word	8465
-.L68:
+.L108:
 	.byte	6,0,7
 	.byte	'unsigned long int',0,4,7,4
 	.byte	'setPinState',0,3,5,137,1,20,1,1,5
@@ -1765,16 +1994,16 @@ _999004_cur_ch_B:	.type	object
 	.byte	'state',0,5,137,1,51
 	.word	8537
 	.byte	6,0
-.L77:
+.L123:
 	.byte	8
 	.byte	'getPinState',0,3,5,157,1,23
 	.word	412
 	.byte	1,1
-.L79:
+.L125:
 	.byte	5
 	.byte	'pin',0,5,157,1,42
 	.word	8465
-.L81:
+.L127:
 	.byte	20,6,0,0,21
 	.byte	'__extru',0
 	.word	429
@@ -1785,7 +2014,7 @@ _999004_cur_ch_B:	.type	object
 	.byte	22
 	.word	445
 	.byte	0
-.L73:
+.L119:
 	.byte	7
 	.byte	'char',0,1,6,23
 	.word	188
@@ -1849,7 +2078,7 @@ _999004_cur_ch_B:	.type	object
 	.byte	27
 	.word	8282
 	.byte	0,6,0,0
-.L101:
+.L161:
 	.byte	7
 	.byte	'long int',0,4,5,7
 	.byte	'short int',0,2,5,28
@@ -5694,15 +5923,21 @@ _999004_cur_ch_B:	.type	object
 	.byte	'IfxPort_Pin',0,3,192,1,3
 	.word	8465
 	.byte	30
+	.byte	'IfxPort_P15_0',0,11,126,24
+	.word	8465
+	.byte	1,1,30
 	.byte	'IfxPort_P15_1',0,11,127,24
 	.word	8465
 	.byte	1,1,30
-	.byte	'IfxPort_P15_4',0,11,130,1,24
+	.byte	'IfxPort_P33_8',0,11,196,1,24
+	.word	8465
+	.byte	1,1,30
+	.byte	'IfxPort_P33_9',0,11,197,1,24
 	.word	8465
 	.byte	1,1,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L31:
+.L51:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -5714,12 +5949,12 @@ _999004_cur_ch_B:	.type	object
 	.byte	73,19,0,0,29,21,0,54,15,0,0,30,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L32:
-	.word	.L104-.L103
-.L103:
+.L52:
+	.word	.L165-.L164
+.L164:
 	.half	3
-	.word	.L106-.L105
-.L105:
+	.word	.L167-.L166
+.L166:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0
 	.byte	'C:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\gpio',0
@@ -5740,426 +5975,12 @@ _999004_cur_ch_B:	.type	object
 	.byte	0,0
 	.byte	'IfxScu_regdef.h',0,1,0,0
 	.byte	'IfxPort_PinMap.h',0,4,0,0,0
-.L106:
-.L104:
-	.sdecl	'.debug_info',debug,cluster('initEncoder')
-	.sect	'.debug_info'
-.L33:
-	.word	300
-	.half	3
-	.word	.L34
-	.byte	4,1
-	.byte	'../src/hardware/encoder/encoder.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L36,.L35
-	.byte	2
-	.word	.L29
-	.byte	3
-	.byte	'initEncoder',0,1,29,6,1,1,1
-	.word	.L20,.L62,.L19
-	.byte	4
-	.word	.L20,.L62
-	.byte	5
-	.word	.L63,.L64,.L65
-	.byte	6
-	.word	.L66,.L67
-	.byte	7
-	.word	.L68,.L64,.L65
-	.byte	0,5
-	.word	.L63,.L69,.L70
-	.byte	6
-	.word	.L66,.L67
-	.byte	7
-	.word	.L68,.L69,.L70
-	.byte	0,0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('initEncoder')
-	.sect	'.debug_abbrev'
-.L34:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,5,0,49,16,2,6,0,0,7,11
-	.byte	0,49,16,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('initEncoder')
-	.sect	'.debug_line'
-.L35:
-	.word	.L108-.L107
-.L107:
-	.half	3
-	.word	.L110-.L109
-.L109:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
-	.byte	'C:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\gpio',0,0
-	.byte	'../src/hardware/encoder/encoder.c',0,0,0,0
-	.byte	'gpio.h',0,1,0,0,0
-.L110:
-	.byte	5,17,7,0,5,2
-	.word	.L20
-	.byte	3,30,1,4,2,5,21,9
-	.half	.L64-.L20
-	.byte	3,226,0,1,4,1,5,17,9
-	.half	.L65-.L64
-	.byte	3,159,127,1,4,2,5,21,9
-	.half	.L69-.L65
-	.byte	3,225,0,1,4,1,5,1,9
-	.half	.L70-.L69
-	.byte	3,160,127,1,7,9
-	.half	.L37-.L70
-	.byte	0,1,1
-.L108:
-	.sdecl	'.debug_ranges',debug,cluster('initEncoder')
-	.sect	'.debug_ranges'
-.L36:
-	.word	-1,.L20,0,.L37-.L20,0,0
-	.sdecl	'.debug_info',debug,cluster('getEncoderPos')
-	.sect	'.debug_info'
-.L38:
-	.word	233
-	.half	3
-	.word	.L39
-	.byte	4,1
-	.byte	'../src/hardware/encoder/encoder.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L41,.L40
-	.byte	2
-	.word	.L29
-	.byte	3
-	.byte	'getEncoderPos',0,1,70,9
-	.word	.L71
-	.byte	1,1,1
-	.word	.L26,.L72,.L25
-	.byte	4
-	.word	.L26,.L72
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('getEncoderPos')
-	.sect	'.debug_abbrev'
-.L39:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('getEncoderPos')
-	.sect	'.debug_line'
-.L40:
-	.word	.L112-.L111
-.L111:
-	.half	3
-	.word	.L114-.L113
-.L113:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../src/hardware/encoder/encoder.c',0,0,0,0,0
-.L114:
-	.byte	5,12,7,0,5,2
-	.word	.L26
-	.byte	3,199,0,1,5,24,9
-	.half	.L115-.L26
-	.byte	1,5,26,9
-	.half	.L116-.L115
-	.byte	1,5,5,9
-	.half	.L117-.L116
-	.byte	1,5,1,9
-	.half	.L17-.L117
-	.byte	3,1,1,7,9
-	.half	.L42-.L17
-	.byte	0,1,1
-.L112:
-	.sdecl	'.debug_ranges',debug,cluster('getEncoderPos')
-	.sect	'.debug_ranges'
-.L41:
-	.word	-1,.L26,0,.L42-.L26,0,0
-	.sdecl	'.debug_info',debug,cluster('getEncoderDir')
-	.sect	'.debug_info'
-.L43:
-	.word	233
-	.half	3
-	.word	.L44
-	.byte	4,1
-	.byte	'../src/hardware/encoder/encoder.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L46,.L45
-	.byte	2
-	.word	.L29
-	.byte	3
-	.byte	'getEncoderDir',0,1,75,7
-	.word	.L73
-	.byte	1,1,1
-	.word	.L28,.L74,.L27
-	.byte	4
-	.word	.L28,.L74
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('getEncoderDir')
-	.sect	'.debug_abbrev'
-.L44:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('getEncoderDir')
-	.sect	'.debug_line'
-.L45:
-	.word	.L119-.L118
-.L118:
-	.half	3
-	.word	.L121-.L120
-.L120:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../src/hardware/encoder/encoder.c',0,0,0,0,0
-.L121:
-	.byte	5,12,7,0,5,2
-	.word	.L28
-	.byte	3,204,0,1,5,5,9
-	.half	.L122-.L28
-	.byte	1,5,1,9
-	.half	.L18-.L122
-	.byte	3,1,1,7,9
-	.half	.L47-.L18
-	.byte	0,1,1
-.L119:
-	.sdecl	'.debug_ranges',debug,cluster('getEncoderDir')
-	.sect	'.debug_ranges'
-.L46:
-	.word	-1,.L28,0,.L47-.L28,0,0
-	.sdecl	'.debug_info',debug,cluster('countEncoderTicks')
-	.sect	'.debug_info'
-.L48:
-	.word	641
-	.half	3
-	.word	.L49
-	.byte	4,1
-	.byte	'../src/hardware/encoder/encoder.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L51,.L50
-	.byte	2
-	.word	.L29
-	.byte	3
-	.byte	'countEncoderTicks',0,1,35,6,1,1,1
-	.word	.L22,.L75,.L21
-	.byte	4
-	.word	.L22,.L75
-	.byte	5
-	.byte	'prev_ch_A',0,1,37,20
-	.word	.L76
-	.byte	5,3
-	.word	_999001_prev_ch_A
-	.byte	5
-	.byte	'prev_ch_B',0,1,38,20
-	.word	.L76
-	.byte	5,3
-	.word	_999002_prev_ch_B
-	.byte	5
-	.byte	'cur_ch_A',0,1,39,20
-	.word	.L76
-	.byte	5,3
-	.word	_999003_cur_ch_A
-	.byte	5
-	.byte	'cur_ch_B',0,1,40,20
-	.word	.L76
-	.byte	5,3
-	.word	_999004_cur_ch_B
-	.byte	6
-	.word	.L77,.L78,.L5
-	.byte	7
-	.word	.L79,.L80
-	.byte	8
-	.word	.L81,.L82
-	.byte	6
-	.word	.L85,.L86,.L4
-	.byte	7
-	.word	.L87,.L88
-	.byte	7
-	.word	.L89,.L90
-	.byte	9
-	.word	.L91,.L92
-	.byte	0,6
-	.word	.L85,.L83,.L84
-	.byte	7
-	.word	.L87,.L88
-	.byte	7
-	.word	.L89,.L90
-	.byte	0,0,0,6
-	.word	.L77,.L83,.L84
-	.byte	7
-	.word	.L79,.L80
-	.byte	0,6
-	.word	.L77,.L93,.L9
-	.byte	7
-	.word	.L79,.L80
-	.byte	8
-	.word	.L81,.L94
-	.byte	6
-	.word	.L85,.L99,.L8
-	.byte	7
-	.word	.L87,.L88
-	.byte	7
-	.word	.L89,.L90
-	.byte	9
-	.word	.L91,.L100
-	.byte	0,6
-	.word	.L85,.L95,.L96
-	.byte	7
-	.word	.L87,.L88
-	.byte	7
-	.word	.L89,.L90
-	.byte	0,6
-	.word	.L85,.L97,.L98
-	.byte	7
-	.word	.L87,.L88
-	.byte	7
-	.word	.L89,.L90
-	.byte	0,0,0,6
-	.word	.L77,.L95,.L96
-	.byte	7
-	.word	.L79,.L80
-	.byte	0,6
-	.word	.L77,.L97,.L98
-	.byte	7
-	.word	.L79,.L80
-	.byte	0,0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('countEncoderTicks')
-	.sect	'.debug_abbrev'
-.L49:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,6,29,1
-	.byte	49,16,17,1,18,1,0,0,7,5,0,49,16,2,6,0,0,8,11,1,49,16,85,6,0,0,9,11,0,49,16,85,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('countEncoderTicks')
-	.sect	'.debug_line'
-.L50:
-	.word	.L124-.L123
-.L123:
-	.half	3
-	.word	.L126-.L125
-.L125:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
-	.byte	'C:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\gpio',0,0
-	.byte	'../src/hardware/encoder/encoder.c',0,0,0,0
-	.byte	'gpio.h',0,1,0,0
-	.byte	'C:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Port\\Std\\IfxPort.h',0
-	.byte	0,0,0,0
-.L126:
-	.byte	5,28,7,0,5,2
-	.word	.L22
-	.byte	3,41,1,4,2,5,35,9
-	.half	.L78-.L22
-	.byte	3,245,0,1,5,45,9
-	.half	.L127-.L78
-	.byte	1,4,3,5,13,9
-	.half	.L86-.L127
-	.byte	3,141,3,1,5,12,9
-	.half	.L128-.L86
-	.byte	1,5,51,7,9
-	.half	.L129-.L128
-	.byte	1,5,58,9
-	.half	.L130-.L129
-	.byte	1,5,51,9
-	.half	.L2-.L130
-	.byte	1,5,5,9
-	.half	.L3-.L2
-	.byte	1,4,2,9
-	.half	.L4-.L3
-	.byte	3,243,124,1,4,1,9
-	.half	.L5-.L4
-	.byte	3,139,127,1,5,14,9
-	.half	.L83-.L5
-	.byte	1,5,28,9
-	.half	.L84-.L83
-	.byte	3,1,1,4,2,5,35,9
-	.half	.L93-.L84
-	.byte	3,244,0,1,5,45,9
-	.half	.L131-.L93
-	.byte	1,4,3,5,13,9
-	.half	.L99-.L131
-	.byte	3,141,3,1,5,12,9
-	.half	.L132-.L99
-	.byte	1,5,51,7,9
-	.half	.L133-.L132
-	.byte	1,5,58,9
-	.half	.L134-.L133
-	.byte	1,5,51,9
-	.half	.L6-.L134
-	.byte	1,5,5,9
-	.half	.L7-.L6
-	.byte	1,4,2,9
-	.half	.L8-.L7
-	.byte	3,243,124,1,4,1,9
-	.half	.L9-.L8
-	.byte	3,140,127,1,5,14,9
-	.half	.L95-.L9
-	.byte	1,5,10,9
-	.half	.L96-.L95
-	.byte	3,3,1,5,9,9
-	.half	.L135-.L96
-	.byte	1,5,34,7,9
-	.half	.L136-.L135
-	.byte	1,5,43,9
-	.half	.L137-.L136
-	.byte	1,5,25,7,9
-	.half	.L97-.L137
-	.byte	3,2,1,5,45,7,9
-	.half	.L98-.L97
-	.byte	1,5,50,9
-	.half	.L138-.L98
-	.byte	1,5,45,9
-	.half	.L12-.L138
-	.byte	1,5,9,9
-	.half	.L13-.L12
-	.byte	1,5,23,9
-	.half	.L139-.L13
-	.byte	1,5,9,9
-	.half	.L10-.L139
-	.byte	3,3,1,5,22,9
-	.half	.L140-.L10
-	.byte	1,5,5,9
-	.half	.L141-.L140
-	.byte	1,5,9,7,9
-	.half	.L142-.L141
-	.byte	3,2,1,5,24,9
-	.half	.L143-.L142
-	.byte	1,5,21,9
-	.half	.L144-.L143
-	.byte	1,5,9,9
-	.half	.L14-.L144
-	.byte	3,3,1,5,22,9
-	.half	.L145-.L14
-	.byte	1,5,5,9
-	.half	.L146-.L145
-	.byte	1,5,9,7,9
-	.half	.L147-.L146
-	.byte	3,2,1,5,24,9
-	.half	.L148-.L147
-	.byte	1,5,21,9
-	.half	.L149-.L148
-	.byte	1,5,5,9
-	.half	.L15-.L149
-	.byte	3,3,1,5,17,9
-	.half	.L150-.L15
-	.byte	1,5,15,9
-	.half	.L151-.L150
-	.byte	1,5,5,9
-	.half	.L152-.L151
-	.byte	3,1,1,5,17,9
-	.half	.L153-.L152
-	.byte	1,5,15,9
-	.half	.L154-.L153
-	.byte	1,5,1,9
-	.half	.L155-.L154
-	.byte	3,1,1,7,9
-	.half	.L52-.L155
-	.byte	0,1,1
-.L124:
-	.sdecl	'.debug_ranges',debug,cluster('countEncoderTicks')
-	.sect	'.debug_ranges'
-.L51:
-	.word	-1,.L22,0,.L52-.L22,0,0
-.L82:
-	.word	-1,.L22,.L78-.L22,.L5-.L22,.L83-.L22,.L84-.L22,0,0
-.L92:
-	.word	-1,.L22,.L86-.L22,.L4-.L22,.L83-.L22,.L84-.L22,0,0
-.L94:
-	.word	-1,.L22,.L93-.L22,.L9-.L22,.L95-.L22,.L96-.L22,.L97-.L22,.L98-.L22,0,0
-.L100:
-	.word	-1,.L22,.L99-.L22,.L8-.L22,.L95-.L22,.L96-.L22,.L97-.L22,.L98-.L22,0,0
-	.sdecl	'.debug_info',debug,cluster('getEncoderTicks')
+.L167:
+.L165:
+	.sdecl	'.debug_info',debug,cluster('initEncoders')
 	.sect	'.debug_info'
 .L53:
-	.word	235
+	.word	373
 	.half	3
 	.word	.L54
 	.byte	4,1
@@ -6168,173 +5989,1031 @@ _999004_cur_ch_B:	.type	object
 	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
 	.word	.L56,.L55
 	.byte	2
-	.word	.L29
+	.word	.L49
 	.byte	3
-	.byte	'getEncoderTicks',0,1,65,8
-	.word	.L101
-	.byte	1,1,1
-	.word	.L24,.L102,.L23
+	.byte	'initEncoders',0,1,42,6,1,1,1
+	.word	.L40,.L102,.L39
 	.byte	4
-	.word	.L24,.L102
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('getEncoderTicks')
+	.word	.L40,.L102
+	.byte	5
+	.word	.L103,.L104,.L105
+	.byte	6
+	.word	.L106,.L107
+	.byte	7
+	.word	.L108,.L104,.L105
+	.byte	0,5
+	.word	.L103,.L109,.L110
+	.byte	6
+	.word	.L106,.L107
+	.byte	7
+	.word	.L108,.L109,.L110
+	.byte	0,5
+	.word	.L103,.L111,.L112
+	.byte	6
+	.word	.L106,.L107
+	.byte	7
+	.word	.L108,.L111,.L112
+	.byte	0,5
+	.word	.L103,.L113,.L114
+	.byte	6
+	.word	.L106,.L107
+	.byte	7
+	.word	.L108,.L113,.L114
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('initEncoders')
 	.sect	'.debug_abbrev'
 .L54:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('getEncoderTicks')
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,5,0,49,16,2,6,0,0,7,11
+	.byte	0,49,16,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('initEncoders')
 	.sect	'.debug_line'
 .L55:
-	.word	.L157-.L156
-.L156:
+	.word	.L169-.L168
+.L168:
 	.half	3
-	.word	.L159-.L158
-.L158:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../src/hardware/encoder/encoder.c',0,0,0,0,0
-.L159:
-	.byte	5,12,7,0,5,2
-	.word	.L24
-	.byte	3,194,0,1,5,5,9
-	.half	.L160-.L24
-	.byte	1,5,1,9
-	.half	.L16-.L160
-	.byte	3,1,1,7,9
-	.half	.L57-.L16
+	.word	.L171-.L170
+.L170:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\gpio',0,0
+	.byte	'../src/hardware/encoder/encoder.c',0,0,0,0
+	.byte	'gpio.h',0,1,0,0,0
+.L171:
+	.byte	5,17,7,0,5,2
+	.word	.L40
+	.byte	3,43,1,4,2,5,21,9
+	.half	.L104-.L40
+	.byte	3,213,0,1,4,1,5,17,9
+	.half	.L105-.L104
+	.byte	3,172,127,1,4,2,5,21,9
+	.half	.L109-.L105
+	.byte	3,212,0,1,4,1,5,17,9
+	.half	.L110-.L109
+	.byte	3,173,127,1,4,2,5,21,9
+	.half	.L111-.L110
+	.byte	3,211,0,1,4,1,5,17,9
+	.half	.L112-.L111
+	.byte	3,174,127,1,4,2,5,21,9
+	.half	.L113-.L112
+	.byte	3,210,0,1,4,1,5,1,9
+	.half	.L114-.L113
+	.byte	3,175,127,1,7,9
+	.half	.L57-.L114
 	.byte	0,1,1
-.L157:
-	.sdecl	'.debug_ranges',debug,cluster('getEncoderTicks')
+.L169:
+	.sdecl	'.debug_ranges',debug,cluster('initEncoders')
 	.sect	'.debug_ranges'
 .L56:
-	.word	-1,.L24,0,.L57-.L24,0,0
-	.sdecl	'.debug_info',debug,cluster('g_cnt_ticks')
+	.word	-1,.L40,0,.L57-.L40,0,0
+	.sdecl	'.debug_info',debug,cluster('getEncoderPos')
 	.sect	'.debug_info'
 .L58:
-	.word	205
+	.word	249
 	.half	3
 	.word	.L59
 	.byte	4,1
 	.byte	'../src/hardware/encoder/encoder.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L29
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L61,.L60
+	.byte	2
+	.word	.L49
 	.byte	3
-	.byte	'g_cnt_ticks',0,6,22,8
-	.word	.L101
-	.byte	1,5,3
-	.word	g_cnt_ticks
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('g_cnt_ticks')
+	.byte	'getEncoderPos',0,1,104,9
+	.word	.L115
+	.byte	1,1,1
+	.word	.L46,.L116,.L45
+	.byte	4
+	.byte	'chn',0,1,104,29
+	.word	.L117,.L118
+	.byte	5
+	.word	.L46,.L116
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('getEncoderPos')
 	.sect	'.debug_abbrev'
 .L59:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('g_encoder_dir')
-	.sect	'.debug_info'
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('getEncoderPos')
+	.sect	'.debug_line'
 .L60:
-	.word	207
+	.word	.L173-.L172
+.L172:
 	.half	3
-	.word	.L61
+	.word	.L175-.L174
+.L174:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../src/hardware/encoder/encoder.c',0,0,0,0,0
+.L175:
+	.byte	5,13,7,0,5,2
+	.word	.L46
+	.byte	3,233,0,1,5,26,7,9
+	.half	.L176-.L46
+	.byte	1,5,38,9
+	.half	.L177-.L176
+	.byte	1,5,39,9
+	.half	.L33-.L177
+	.byte	1,5,52,9
+	.half	.L34-.L33
+	.byte	1,5,54,9
+	.half	.L178-.L34
+	.byte	1,5,5,9
+	.half	.L179-.L178
+	.byte	1,5,1,9
+	.half	.L35-.L179
+	.byte	3,1,1,7,9
+	.half	.L62-.L35
+	.byte	0,1,1
+.L173:
+	.sdecl	'.debug_ranges',debug,cluster('getEncoderPos')
+	.sect	'.debug_ranges'
+.L61:
+	.word	-1,.L46,0,.L62-.L46,0,0
+	.sdecl	'.debug_info',debug,cluster('getEncoderDir')
+	.sect	'.debug_info'
+.L63:
+	.word	249
+	.half	3
+	.word	.L64
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L66,.L65
+	.byte	2
+	.word	.L49
+	.byte	3
+	.byte	'getEncoderDir',0,1,109,7
+	.word	.L119
+	.byte	1,1,1
+	.word	.L48,.L120,.L47
+	.byte	4
+	.byte	'chn',0,1,109,27
+	.word	.L117,.L121
+	.byte	5
+	.word	.L48,.L120
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('getEncoderDir')
+	.sect	'.debug_abbrev'
+.L64:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('getEncoderDir')
+	.sect	'.debug_line'
+.L65:
+	.word	.L181-.L180
+.L180:
+	.half	3
+	.word	.L183-.L182
+.L182:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../src/hardware/encoder/encoder.c',0,0,0,0,0
+.L183:
+	.byte	5,13,7,0,5,2
+	.word	.L48
+	.byte	3,238,0,1,5,26,7,9
+	.half	.L184-.L48
+	.byte	1,5,36,9
+	.half	.L185-.L184
+	.byte	1,5,37,9
+	.half	.L36-.L185
+	.byte	1,5,5,9
+	.half	.L37-.L36
+	.byte	1,5,1,9
+	.half	.L38-.L37
+	.byte	3,1,1,7,9
+	.half	.L67-.L38
+	.byte	0,1,1
+.L181:
+	.sdecl	'.debug_ranges',debug,cluster('getEncoderDir')
+	.sect	'.debug_ranges'
+.L66:
+	.word	-1,.L48,0,.L67-.L48,0,0
+	.sdecl	'.debug_info',debug,cluster('countEncoderTicks')
+	.sect	'.debug_info'
+.L68:
+	.word	860
+	.half	3
+	.word	.L69
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L71,.L70
+	.byte	2
+	.word	.L49
+	.byte	3
+	.byte	'countEncoderTicks',0,1,50,6,1,1,1
+	.word	.L42,.L122,.L41
+	.byte	4
+	.word	.L42,.L122
+	.byte	5
+	.word	.L123,.L124,.L5
+	.byte	6
+	.word	.L125,.L126
+	.byte	7
+	.word	.L127,.L128
+	.byte	5
+	.word	.L131,.L132,.L4
+	.byte	6
+	.word	.L133,.L134
+	.byte	6
+	.word	.L135,.L136
+	.byte	8
+	.word	.L137,.L138
+	.byte	0,5
+	.word	.L131,.L129,.L130
+	.byte	6
+	.word	.L133,.L134
+	.byte	6
+	.word	.L135,.L136
+	.byte	0,0,0,5
+	.word	.L123,.L129,.L130
+	.byte	6
+	.word	.L125,.L126
+	.byte	0,5
+	.word	.L123,.L139,.L9
+	.byte	6
+	.word	.L125,.L126
+	.byte	7
+	.word	.L127,.L140
+	.byte	5
+	.word	.L131,.L145,.L8
+	.byte	6
+	.word	.L133,.L134
+	.byte	6
+	.word	.L135,.L136
+	.byte	8
+	.word	.L137,.L146
+	.byte	0,5
+	.word	.L131,.L141,.L142
+	.byte	6
+	.word	.L133,.L134
+	.byte	6
+	.word	.L135,.L136
+	.byte	0,5
+	.word	.L131,.L143,.L144
+	.byte	6
+	.word	.L133,.L134
+	.byte	6
+	.word	.L135,.L136
+	.byte	0,0,0,5
+	.word	.L123,.L141,.L142
+	.byte	6
+	.word	.L125,.L126
+	.byte	0,5
+	.word	.L123,.L143,.L144
+	.byte	6
+	.word	.L125,.L126
+	.byte	0,5
+	.word	.L123,.L147,.L19
+	.byte	6
+	.word	.L125,.L126
+	.byte	7
+	.word	.L127,.L148
+	.byte	5
+	.word	.L131,.L151,.L18
+	.byte	6
+	.word	.L133,.L134
+	.byte	6
+	.word	.L135,.L136
+	.byte	8
+	.word	.L137,.L152
+	.byte	0,5
+	.word	.L131,.L149,.L150
+	.byte	6
+	.word	.L133,.L134
+	.byte	6
+	.word	.L135,.L136
+	.byte	0,0,0,5
+	.word	.L123,.L149,.L150
+	.byte	6
+	.word	.L125,.L126
+	.byte	0,5
+	.word	.L123,.L153,.L23
+	.byte	6
+	.word	.L125,.L126
+	.byte	7
+	.word	.L127,.L154
+	.byte	5
+	.word	.L131,.L159,.L22
+	.byte	6
+	.word	.L133,.L134
+	.byte	6
+	.word	.L135,.L136
+	.byte	8
+	.word	.L137,.L160
+	.byte	0,5
+	.word	.L131,.L155,.L156
+	.byte	6
+	.word	.L133,.L134
+	.byte	6
+	.word	.L135,.L136
+	.byte	0,5
+	.word	.L131,.L157,.L158
+	.byte	6
+	.word	.L133,.L134
+	.byte	6
+	.word	.L135,.L136
+	.byte	0,0,0,5
+	.word	.L123,.L155,.L156
+	.byte	6
+	.word	.L125,.L126
+	.byte	0,5
+	.word	.L123,.L157,.L158
+	.byte	6
+	.word	.L125,.L126
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('countEncoderTicks')
+	.sect	'.debug_abbrev'
+.L69:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,5,0,49,16,2,6,0,0,7,11
+	.byte	1,49,16,85,6,0,0,8,11,0,49,16,85,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('countEncoderTicks')
+	.sect	'.debug_line'
+.L70:
+	.word	.L187-.L186
+.L186:
+	.half	3
+	.word	.L189-.L188
+.L188:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\gpio',0,0
+	.byte	'../src/hardware/encoder/encoder.c',0,0,0,0
+	.byte	'gpio.h',0,1,0,0
+	.byte	'C:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Port\\Std\\IfxPort.h',0
+	.byte	0,0,0,0
+.L189:
+	.byte	5,31,7,0,5,2
+	.word	.L42
+	.byte	3,51,1,4,2,5,35,9
+	.half	.L124-.L42
+	.byte	3,235,0,1,5,45,9
+	.half	.L190-.L124
+	.byte	1,4,3,5,13,9
+	.half	.L132-.L190
+	.byte	3,141,3,1,5,12,9
+	.half	.L191-.L132
+	.byte	1,5,51,7,9
+	.half	.L192-.L191
+	.byte	1,5,58,9
+	.half	.L193-.L192
+	.byte	1,5,51,9
+	.half	.L2-.L193
+	.byte	1,5,5,9
+	.half	.L3-.L2
+	.byte	1,4,2,9
+	.half	.L4-.L3
+	.byte	3,243,124,1,4,1,9
+	.half	.L5-.L4
+	.byte	3,149,127,1,5,17,9
+	.half	.L129-.L5
+	.byte	1,5,31,9
+	.half	.L130-.L129
+	.byte	3,1,1,4,2,5,35,9
+	.half	.L139-.L130
+	.byte	3,234,0,1,5,45,9
+	.half	.L194-.L139
+	.byte	1,4,3,5,13,9
+	.half	.L145-.L194
+	.byte	3,141,3,1,5,12,9
+	.half	.L195-.L145
+	.byte	1,5,51,7,9
+	.half	.L196-.L195
+	.byte	1,5,58,9
+	.half	.L197-.L196
+	.byte	1,5,51,9
+	.half	.L6-.L197
+	.byte	1,5,5,9
+	.half	.L7-.L6
+	.byte	1,4,2,9
+	.half	.L8-.L7
+	.byte	3,243,124,1,4,1,9
+	.half	.L9-.L8
+	.byte	3,150,127,1,5,17,9
+	.half	.L141-.L9
+	.byte	1,5,10,9
+	.half	.L142-.L141
+	.byte	3,3,1,5,9,9
+	.half	.L198-.L142
+	.byte	1,5,37,7,9
+	.half	.L199-.L198
+	.byte	1,5,49,9
+	.half	.L200-.L199
+	.byte	1,5,21,7,9
+	.half	.L143-.L200
+	.byte	3,2,1,5,44,7,9
+	.half	.L144-.L143
+	.byte	1,5,49,9
+	.half	.L201-.L144
+	.byte	1,5,44,9
+	.half	.L12-.L201
+	.byte	1,5,9,9
+	.half	.L13-.L12
+	.byte	1,5,19,9
+	.half	.L202-.L13
+	.byte	1,5,9,9
+	.half	.L10-.L202
+	.byte	3,3,1,5,25,9
+	.half	.L203-.L10
+	.byte	1,5,5,9
+	.half	.L204-.L203
+	.byte	1,5,9,7,9
+	.half	.L205-.L204
+	.byte	3,2,1,5,24,9
+	.half	.L206-.L205
+	.byte	1,5,21,9
+	.half	.L207-.L206
+	.byte	1,5,9,9
+	.half	.L14-.L207
+	.byte	3,3,1,5,25,9
+	.half	.L208-.L14
+	.byte	1,5,5,9
+	.half	.L209-.L208
+	.byte	1,5,9,7,9
+	.half	.L210-.L209
+	.byte	3,2,1,5,24,9
+	.half	.L211-.L210
+	.byte	1,5,21,9
+	.half	.L212-.L211
+	.byte	1,5,5,9
+	.half	.L15-.L212
+	.byte	3,3,1,5,20,9
+	.half	.L213-.L15
+	.byte	1,5,18,9
+	.half	.L214-.L213
+	.byte	1,5,5,9
+	.half	.L215-.L214
+	.byte	3,1,1,5,20,9
+	.half	.L216-.L215
+	.byte	1,5,18,9
+	.half	.L217-.L216
+	.byte	1,5,31,9
+	.half	.L218-.L217
+	.byte	3,2,1,4,2,5,35,9
+	.half	.L147-.L218
+	.byte	3,213,0,1,5,45,9
+	.half	.L219-.L147
+	.byte	1,4,3,5,13,9
+	.half	.L151-.L219
+	.byte	3,141,3,1,5,12,9
+	.half	.L220-.L151
+	.byte	1,5,51,7,9
+	.half	.L221-.L220
+	.byte	1,5,58,9
+	.half	.L222-.L221
+	.byte	1,5,51,9
+	.half	.L16-.L222
+	.byte	1,5,5,9
+	.half	.L17-.L16
+	.byte	1,4,2,9
+	.half	.L18-.L17
+	.byte	3,243,124,1,4,1,9
+	.half	.L19-.L18
+	.byte	3,171,127,1,5,17,9
+	.half	.L149-.L19
+	.byte	1,5,31,9
+	.half	.L150-.L149
+	.byte	3,1,1,4,2,5,35,9
+	.half	.L153-.L150
+	.byte	3,212,0,1,5,45,9
+	.half	.L223-.L153
+	.byte	1,4,3,5,13,9
+	.half	.L159-.L223
+	.byte	3,141,3,1,5,12,9
+	.half	.L224-.L159
+	.byte	1,5,51,7,9
+	.half	.L225-.L224
+	.byte	1,5,58,9
+	.half	.L226-.L225
+	.byte	1,5,51,9
+	.half	.L20-.L226
+	.byte	1,5,5,9
+	.half	.L21-.L20
+	.byte	1,4,2,9
+	.half	.L22-.L21
+	.byte	3,243,124,1,4,1,9
+	.half	.L23-.L22
+	.byte	3,172,127,1,5,17,9
+	.half	.L155-.L23
+	.byte	1,5,10,9
+	.half	.L156-.L155
+	.byte	3,3,1,5,9,9
+	.half	.L227-.L156
+	.byte	1,5,37,7,9
+	.half	.L228-.L227
+	.byte	1,5,49,9
+	.half	.L229-.L228
+	.byte	1,5,21,7,9
+	.half	.L157-.L229
+	.byte	3,2,1,5,44,7,9
+	.half	.L158-.L157
+	.byte	1,5,49,9
+	.half	.L230-.L158
+	.byte	1,5,44,9
+	.half	.L26-.L230
+	.byte	1,5,9,9
+	.half	.L27-.L26
+	.byte	1,5,19,9
+	.half	.L231-.L27
+	.byte	1,5,9,9
+	.half	.L24-.L231
+	.byte	3,3,1,5,25,9
+	.half	.L232-.L24
+	.byte	1,5,5,9
+	.half	.L233-.L232
+	.byte	1,5,9,7,9
+	.half	.L234-.L233
+	.byte	3,2,1,5,24,9
+	.half	.L235-.L234
+	.byte	1,5,21,9
+	.half	.L236-.L235
+	.byte	1,5,9,9
+	.half	.L28-.L236
+	.byte	3,3,1,5,25,9
+	.half	.L237-.L28
+	.byte	1,5,5,9
+	.half	.L238-.L237
+	.byte	1,5,9,7,9
+	.half	.L239-.L238
+	.byte	3,2,1,5,24,9
+	.half	.L240-.L239
+	.byte	1,5,21,9
+	.half	.L241-.L240
+	.byte	1,5,5,9
+	.half	.L29-.L241
+	.byte	3,3,1,5,20,9
+	.half	.L242-.L29
+	.byte	1,5,18,9
+	.half	.L243-.L242
+	.byte	1,5,5,9
+	.half	.L244-.L243
+	.byte	3,1,1,5,20,9
+	.half	.L245-.L244
+	.byte	1,5,18,9
+	.half	.L246-.L245
+	.byte	1,5,1,9
+	.half	.L247-.L246
+	.byte	3,3,1,7,9
+	.half	.L72-.L247
+	.byte	0,1,1
+.L187:
+	.sdecl	'.debug_ranges',debug,cluster('countEncoderTicks')
+	.sect	'.debug_ranges'
+.L71:
+	.word	-1,.L42,0,.L72-.L42,0,0
+.L128:
+	.word	-1,.L42,.L124-.L42,.L5-.L42,.L129-.L42,.L130-.L42,0,0
+.L138:
+	.word	-1,.L42,.L132-.L42,.L4-.L42,.L129-.L42,.L130-.L42,0,0
+.L140:
+	.word	-1,.L42,.L139-.L42,.L9-.L42,.L141-.L42,.L142-.L42,.L143-.L42,.L144-.L42,0,0
+.L146:
+	.word	-1,.L42,.L145-.L42,.L8-.L42,.L141-.L42,.L142-.L42,.L143-.L42,.L144-.L42,0,0
+.L148:
+	.word	-1,.L42,.L147-.L42,.L19-.L42,.L149-.L42,.L150-.L42,0,0
+.L152:
+	.word	-1,.L42,.L151-.L42,.L18-.L42,.L149-.L42,.L150-.L42,0,0
+.L154:
+	.word	-1,.L42,.L153-.L42,.L23-.L42,.L155-.L42,.L156-.L42,.L157-.L42,.L158-.L42,0,0
+.L160:
+	.word	-1,.L42,.L159-.L42,.L22-.L42,.L155-.L42,.L156-.L42,.L157-.L42,.L158-.L42,0,0
+	.sdecl	'.debug_info',debug,cluster('getEncoderTicks')
+	.sect	'.debug_info'
+.L73:
+	.word	251
+	.half	3
+	.word	.L74
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L76,.L75
+	.byte	2
+	.word	.L49
+	.byte	3
+	.byte	'getEncoderTicks',0,1,99,8
+	.word	.L161
+	.byte	1,1,1
+	.word	.L44,.L162,.L43
+	.byte	4
+	.byte	'chn',0,1,99,30
+	.word	.L117,.L163
+	.byte	5
+	.word	.L44,.L162
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('getEncoderTicks')
+	.sect	'.debug_abbrev'
+.L74:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('getEncoderTicks')
+	.sect	'.debug_line'
+.L75:
+	.word	.L249-.L248
+.L248:
+	.half	3
+	.word	.L251-.L250
+.L250:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../src/hardware/encoder/encoder.c',0,0,0,0,0
+.L251:
+	.byte	5,13,7,0,5,2
+	.word	.L44
+	.byte	3,228,0,1,5,26,7,9
+	.half	.L252-.L44
+	.byte	1,5,38,9
+	.half	.L253-.L252
+	.byte	1,5,39,9
+	.half	.L30-.L253
+	.byte	1,5,5,9
+	.half	.L31-.L30
+	.byte	1,5,1,9
+	.half	.L32-.L31
+	.byte	3,1,1,7,9
+	.half	.L77-.L32
+	.byte	0,1,1
+.L249:
+	.sdecl	'.debug_ranges',debug,cluster('getEncoderTicks')
+	.sect	'.debug_ranges'
+.L76:
+	.word	-1,.L44,0,.L77-.L44,0,0
+	.sdecl	'.debug_info',debug,cluster('g_ticks_chA')
+	.sect	'.debug_info'
+.L78:
+	.word	205
+	.half	3
+	.word	.L79
 	.byte	4,1
 	.byte	'../src/hardware/encoder/encoder.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L29
+	.word	.L49
 	.byte	3
-	.byte	'g_encoder_dir',0,6,23,7
-	.word	.L73
+	.byte	'g_ticks_chA',0,6,23,8
+	.word	.L161
 	.byte	1,5,3
-	.word	g_encoder_dir
+	.word	g_ticks_chA
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('g_encoder_dir')
+	.sdecl	'.debug_abbrev',debug,cluster('g_ticks_chA')
 	.sect	'.debug_abbrev'
-.L61:
+.L79:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_dir_chA')
+	.sect	'.debug_info'
+.L80:
+	.word	203
+	.half	3
+	.word	.L81
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L49
+	.byte	3
+	.byte	'g_dir_chA',0,6,24,7
+	.word	.L119
+	.byte	1,5,3
+	.word	g_dir_chA
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_dir_chA')
+	.sect	'.debug_abbrev'
+.L81:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_ticks_chB')
+	.sect	'.debug_info'
+.L82:
+	.word	205
+	.half	3
+	.word	.L83
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L49
+	.byte	3
+	.byte	'g_ticks_chB',0,6,26,8
+	.word	.L161
+	.byte	1,5,3
+	.word	g_ticks_chB
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_ticks_chB')
+	.sect	'.debug_abbrev'
+.L83:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_dir_chB')
+	.sect	'.debug_info'
+.L84:
+	.word	203
+	.half	3
+	.word	.L85
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L49
+	.byte	3
+	.byte	'g_dir_chB',0,6,27,7
+	.word	.L119
+	.byte	1,5,3
+	.word	g_dir_chB
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_dir_chB')
+	.sect	'.debug_abbrev'
+.L85:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_cur_chA_1')
+	.sect	'.debug_info'
+.L86:
+	.word	205
+	.half	3
+	.word	.L87
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L49
+	.byte	3
+	.byte	'g_cur_chA_1',0,6,29,9
+	.word	.L117
+	.byte	1,5,3
+	.word	g_cur_chA_1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_cur_chA_1')
+	.sect	'.debug_abbrev'
+.L87:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_cur_chA_2')
+	.sect	'.debug_info'
+.L88:
+	.word	205
+	.half	3
+	.word	.L89
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L49
+	.byte	3
+	.byte	'g_cur_chA_2',0,6,30,9
+	.word	.L117
+	.byte	1,5,3
+	.word	g_cur_chA_2
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_cur_chA_2')
+	.sect	'.debug_abbrev'
+.L89:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_prev_chA_1')
+	.sect	'.debug_info'
+.L90:
+	.word	206
+	.half	3
+	.word	.L91
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L49
+	.byte	3
+	.byte	'g_prev_chA_1',0,6,31,9
+	.word	.L117
+	.byte	1,5,3
+	.word	g_prev_chA_1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_prev_chA_1')
+	.sect	'.debug_abbrev'
+.L91:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_prev_chA_2')
+	.sect	'.debug_info'
+.L92:
+	.word	206
+	.half	3
+	.word	.L93
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L49
+	.byte	3
+	.byte	'g_prev_chA_2',0,6,32,9
+	.word	.L117
+	.byte	1,5,3
+	.word	g_prev_chA_2
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_prev_chA_2')
+	.sect	'.debug_abbrev'
+.L93:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_cur_chB_1')
+	.sect	'.debug_info'
+.L94:
+	.word	205
+	.half	3
+	.word	.L95
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L49
+	.byte	3
+	.byte	'g_cur_chB_1',0,6,33,9
+	.word	.L117
+	.byte	1,5,3
+	.word	g_cur_chB_1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_cur_chB_1')
+	.sect	'.debug_abbrev'
+.L95:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_cur_chB_2')
+	.sect	'.debug_info'
+.L96:
+	.word	205
+	.half	3
+	.word	.L97
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L49
+	.byte	3
+	.byte	'g_cur_chB_2',0,6,34,9
+	.word	.L117
+	.byte	1,5,3
+	.word	g_cur_chB_2
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_cur_chB_2')
+	.sect	'.debug_abbrev'
+.L97:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_prev_chB_1')
+	.sect	'.debug_info'
+.L98:
+	.word	206
+	.half	3
+	.word	.L99
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L49
+	.byte	3
+	.byte	'g_prev_chB_1',0,6,35,9
+	.word	.L117
+	.byte	1,5,3
+	.word	g_prev_chB_1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_prev_chB_1')
+	.sect	'.debug_abbrev'
+.L99:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_prev_chB_2')
+	.sect	'.debug_info'
+.L100:
+	.word	206
+	.half	3
+	.word	.L101
+	.byte	4,1
+	.byte	'../src/hardware/encoder/encoder.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L49
+	.byte	3
+	.byte	'g_prev_chB_2',0,6,36,9
+	.word	.L117
+	.byte	1,5,3
+	.word	g_prev_chB_2
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_prev_chB_2')
+	.sect	'.debug_abbrev'
+.L101:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('countEncoderTicks')
 	.sect	'.debug_loc'
-.L21:
-	.word	-1,.L22,0,.L75-.L22
+.L41:
+	.word	-1,.L42,0,.L122-.L42
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L80:
-	.word	-1,.L22,.L78-.L22,.L86-.L22
+.L126:
+	.word	-1,.L42,.L124-.L42,.L132-.L42
 	.half	2
 	.byte	144,32
-	.word	.L93-.L22,.L99-.L22
+	.word	.L139-.L42,.L145-.L42
+	.half	2
+	.byte	144,32
+	.word	.L147-.L42,.L151-.L42
+	.half	2
+	.byte	144,32
+	.word	.L153-.L42,.L159-.L42
 	.half	2
 	.byte	144,32
 	.word	0,0
-.L90:
+.L136:
 	.word	0,0
-.L88:
+.L134:
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('getEncoderDir')
 	.sect	'.debug_loc'
-.L27:
-	.word	-1,.L28,0,.L74-.L28
+.L121:
+	.word	-1,.L48,0,.L120-.L48
+	.half	1
+	.byte	84
+	.word	0,0
+.L47:
+	.word	-1,.L48,0,.L120-.L48
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('getEncoderPos')
 	.sect	'.debug_loc'
-.L25:
-	.word	-1,.L26,0,.L72-.L26
+.L118:
+	.word	-1,.L46,0,.L116-.L46
+	.half	1
+	.byte	84
+	.word	0,0
+.L45:
+	.word	-1,.L46,0,.L116-.L46
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('getEncoderTicks')
 	.sect	'.debug_loc'
-.L23:
-	.word	-1,.L24,0,.L102-.L24
+.L163:
+	.word	-1,.L44,0,.L162-.L44
+	.half	1
+	.byte	84
+	.word	0,0
+.L43:
+	.word	-1,.L44,0,.L162-.L44
 	.half	2
 	.byte	138,0
 	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('initEncoder')
+	.sdecl	'.debug_loc',debug,cluster('initEncoders')
 	.sect	'.debug_loc'
-.L19:
-	.word	-1,.L20,0,.L62-.L20
+.L39:
+	.word	-1,.L40,0,.L102-.L40
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L67:
-	.word	-1,.L20,.L64-.L20,.L65-.L20
+.L107:
+	.word	-1,.L40,.L104-.L40,.L105-.L40
 	.half	2
 	.byte	144,34
-	.word	.L69-.L20,.L70-.L20
+	.word	.L109-.L40,.L110-.L40
+	.half	2
+	.byte	144,34
+	.word	.L111-.L40,.L112-.L40
+	.half	2
+	.byte	144,34
+	.word	.L113-.L40,.L114-.L40
 	.half	2
 	.byte	144,34
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L161:
+.L254:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
 	.byte	8,39
-	.sdecl	'.debug_frame',debug,cluster('initEncoder')
+	.sdecl	'.debug_frame',debug,cluster('initEncoders')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L161,.L20,.L62-.L20
+	.word	.L254,.L40,.L102-.L40
 	.sdecl	'.debug_frame',debug,cluster('countEncoderTicks')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L161,.L22,.L75-.L22
+	.word	.L254,.L42,.L122-.L42
 	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('getEncoderTicks')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L161,.L24,.L102-.L24
+	.word	.L254,.L44,.L162-.L44
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('getEncoderPos')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L161,.L26,.L72-.L26
+	.word	.L254,.L46,.L116-.L46
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('getEncoderDir')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L161,.L28,.L74-.L28
+	.word	.L254,.L48,.L120-.L48
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	; Module end

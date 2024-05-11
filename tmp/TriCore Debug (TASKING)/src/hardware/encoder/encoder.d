@@ -52,3 +52,5 @@ src/hardware/encoder/encoder.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/
 c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.asm.h :
 src/hardware/encoder/encoder.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
 c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
+src/hardware/encoder/encoder.o :	c:/myTC275/automotive/tmp/src/pinSettings.h
+c:/myTC275/automotive/tmp/src/pinSettings.h :
