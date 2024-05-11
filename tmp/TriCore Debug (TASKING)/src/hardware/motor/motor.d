@@ -130,3 +130,5 @@ src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tric
 c:/myTC275/automotive/tmp/Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.h :
 src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.h
 c:/myTC275/automotive/tmp/Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.h :
+src/hardware/motor/motor.o :	c:/myTC275/automotive/tmp/src/pinSettings.h
+c:/myTC275/automotive/tmp/src/pinSettings.h :

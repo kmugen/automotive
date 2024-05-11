@@ -33,6 +33,7 @@
 #include "AppScheduling.h"
 #include "encoder.h"
 #include "motor.h"
+#include "uart.h"
 
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
 
@@ -50,13 +51,11 @@ void core0_main(void)
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
 
-    initMotor();
+    initMotors();
     initEncoder();
     initUart();
     initStm();
     IfxCpu_enableInterrupts();
-
-
 
     while(1)
     {

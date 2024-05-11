@@ -3,7 +3,7 @@
 
 #include "Ifx_Types.h"
 
-extern void initMotor(void);
+extern void initMotors(void);
 extern void setMotorPower(float32 power);
 
 #endif /* MOTOR_H_ */

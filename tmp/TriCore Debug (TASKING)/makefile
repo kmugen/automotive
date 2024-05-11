@@ -18,6 +18,8 @@ RM := rm -rf
 -include src/hardware/encoder/subdir.mk
 -include src/app/scheduler/subdir.mk
 -include src/app/pid/subdir.mk
+-include src/app/observer/subdir.mk
+-include src/app/lpf/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/_PinMap/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/_Impl/subdir.mk

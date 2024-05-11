@@ -96,3 +96,5 @@ Cpu0_Main.o :	c:/myTC275/automotive/tmp/src/hardware/encoder/encoder.h
 c:/myTC275/automotive/tmp/src/hardware/encoder/encoder.h :
 Cpu0_Main.o :	c:/myTC275/automotive/tmp/src/hardware/motor/motor.h
 c:/myTC275/automotive/tmp/src/hardware/motor/motor.h :
+Cpu0_Main.o :	c:/myTC275/automotive/tmp/src/tc275/uart/uart.h
+c:/myTC275/automotive/tmp/src/tc275/uart/uart.h :

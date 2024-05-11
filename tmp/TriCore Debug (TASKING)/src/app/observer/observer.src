@@ -1,0 +1,1324 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc24332a --dep-file=src/app/observer/observer.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\myTC275\\\\automotive\\\\tmp -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Configurations -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app\\\\lpf -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app\\\\observer -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app\\\\pid -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\app\\\\scheduler -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\hardware -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\hardware\\\\encoder -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\hardware\\\\motor -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275 -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\adc -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\delay -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\extIrq -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\gpio -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\pwmHl -IC:\\\\myTC275\\\\automotive\\\\tmp\\\\src\\\\tc275\\\\uart -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o src/app/observer/observer.src ../src/app/observer/observer.c"
+	.compiler_name		"ctc"
+	;source	'../src/app/observer/observer.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.observer.obrserveMotor',code,cluster('obrserveMotor')
+	.sect	'.text.observer.obrserveMotor'
+	.align	2
+	
+	.global	obrserveMotor
+; Function obrserveMotor
+.L8:
+obrserveMotor:	.type	func
+	mov	d2,#0
+.L88:
+	j	.L2
+.L3:
+	mul	d15,d2,#4
+.L97:
+	movh.a	a15,#@his(g_int_i_h)
+	lea	a15,[a15]@los(g_int_i_h)
+.L98:
+	addsc.a	a2,a15,d15,#0
+	mul	d15,d2,#4
+.L99:
+	movh.a	a15,#@his(g_int_i_h)
+	lea	a15,[a15]@los(g_int_i_h)
+.L100:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d3,[a15]
+.L101:
+	movh.a	a15,#@his(Kb)
+	lea	a15,[a15]@los(Kb)
+	ld.w	d15,[a15]
+.L102:
+	insn.t	d15,d15:31,d15:31
+.L103:
+	movh.a	a15,#@his(L)
+	lea	a15,[a15]@los(L)
+	ld.w	d0,[a15]
+.L104:
+	div.f	d0,d15,d0
+.L105:
+	mul	d15,d2,#4
+.L106:
+	movh.a	a15,#@his(g_w_h)
+	lea	a15,[a15]@los(g_w_h)
+.L107:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L108:
+	mul.f	d0,d0,d15
+.L109:
+	movh.a	a15,#@his(R)
+	lea	a15,[a15]@los(R)
+	ld.w	d15,[a15]
+.L110:
+	movh.a	a15,#@his(L)
+	lea	a15,[a15]@los(L)
+	ld.w	d1,[a15]
+.L111:
+	div.f	d1,d15,d1
+.L112:
+	mul	d15,d2,#4
+.L113:
+	movh.a	a15,#@his(g_i_h)
+	lea	a15,[a15]@los(g_i_h)
+.L114:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L115:
+	msub.f	d15,d0,d1,d15
+.L116:
+	movh.a	a15,#@his(L)
+	lea	a15,[a15]@los(L)
+	ld.w	d0,[a15]
+.L117:
+	div.f	d0,d4,d0
+.L118:
+	add.f	d15,d15,d0
+.L119:
+	add.f	d15,d3,d15
+	st.w	[a2],d15
+.L120:
+	mul	d15,d2,#4
+.L121:
+	movh.a	a15,#@his(g_i_h)
+	lea	a15,[a15]@los(g_i_h)
+.L122:
+	addsc.a	a15,a15,d15,#0
+.L123:
+	mul	d15,d2,#4
+.L124:
+	movh.a	a2,#@his(g_int_i_h)
+	lea	a2,[a2]@los(g_int_i_h)
+.L125:
+	addsc.a	a2,a2,d15,#0
+	ld.w	d15,[a2]
+.L126:
+	st.w	[a15],d15
+.L127:
+	mul	d15,d2,#4
+.L128:
+	movh.a	a15,#@his(g_int_w_h)
+	lea	a15,[a15]@los(g_int_w_h)
+.L129:
+	addsc.a	a2,a15,d15,#0
+	mul	d15,d2,#4
+.L130:
+	movh.a	a15,#@his(g_int_w_h)
+	lea	a15,[a15]@los(g_int_w_h)
+.L131:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d0,[a15]
+.L132:
+	movh.a	a15,#@his(B)
+	lea	a15,[a15]@los(B)
+	ld.w	d15,[a15]
+.L133:
+	insn.t	d15,d15:31,d15:31
+.L134:
+	movh.a	a15,#@his(J)
+	lea	a15,[a15]@los(J)
+	ld.w	d1,[a15]
+.L135:
+	div.f	d1,d15,d1
+.L136:
+	mul	d15,d2,#4
+.L137:
+	movh.a	a15,#@his(g_w_h)
+	lea	a15,[a15]@los(g_w_h)
+.L138:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d3,[a15]
+.L139:
+	movh.a	a15,#@his(Kt)
+	lea	a15,[a15]@los(Kt)
+	ld.w	d15,[a15]
+.L140:
+	movh.a	a15,#@his(J)
+	lea	a15,[a15]@los(J)
+	ld.w	d5,[a15]
+.L141:
+	div.f	d5,d15,d5
+.L142:
+	mul	d15,d2,#4
+	movh.a	a15,#@his(g_int_i_h)
+	lea	a15,[a15]@los(g_int_i_h)
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L143:
+	mul.f	d15,d5,d15
+.L144:
+	madd.f	d15,d15,d1,d3
+.L145:
+	add.f	d15,d0,d15
+	st.w	[a2],d15
+.L146:
+	mul	d15,d2,#4
+.L147:
+	movh.a	a15,#@his(g_w_h)
+	lea	a15,[a15]@los(g_w_h)
+.L148:
+	addsc.a	a15,a15,d15,#0
+.L149:
+	mul	d15,d2,#4
+.L150:
+	movh.a	a2,#@his(g_int_w_h)
+	lea	a2,[a2]@los(g_int_w_h)
+.L151:
+	addsc.a	a2,a2,d15,#0
+	ld.w	d15,[a2]
+.L152:
+	st.w	[a15],d15
+.L153:
+	mul	d15,d2,#4
+.L154:
+	movh.a	a15,#@his(g_int_theta_h)
+	lea	a15,[a15]@los(g_int_theta_h)
+.L155:
+	addsc.a	a15,a15,d15,#0
+	mul	d15,d2,#4
+.L156:
+	movh.a	a2,#@his(g_int_theta_h)
+	lea	a2,[a2]@los(g_int_theta_h)
+.L157:
+	addsc.a	a2,a2,d15,#0
+	ld.w	d0,[a2]
+.L158:
+	mul	d15,d2,#4
+	movh.a	a2,#@his(g_int_w_h)
+	lea	a2,[a2]@los(g_int_w_h)
+	addsc.a	a2,a2,d15,#0
+	ld.w	d15,[a2]
+.L159:
+	add.f	d15,d0,d15
+	st.w	[a15],d15
+.L160:
+	mul	d15,d2,#4
+.L161:
+	movh.a	a15,#@his(g_theta_h)
+	lea	a15,[a15]@los(g_theta_h)
+.L162:
+	addsc.a	a15,a15,d15,#0
+.L163:
+	mul	d15,d2,#4
+.L164:
+	movh.a	a2,#@his(g_int_theta_h)
+	lea	a2,[a2]@los(g_int_theta_h)
+.L165:
+	addsc.a	a2,a2,d15,#0
+	ld.w	d15,[a2]
+.L166:
+	st.w	[a15],d15
+.L167:
+	add	d2,#1
+.L2:
+	jlt.u	d2,#2,.L3
+.L72:
+	ret
+.L69:
+	
+__obrserveMotor_function_end:
+	.size	obrserveMotor,__obrserveMotor_function_end-obrserveMotor
+.L23:
+	; End of function
+	
+	.sdecl	'.text.observer.getThetaHat',code,cluster('getThetaHat')
+	.sect	'.text.observer.getThetaHat'
+	.align	2
+	
+	.global	getThetaHat
+; Function getThetaHat
+.L10:
+getThetaHat:	.type	func
+	mul	d15,d4,#4
+.L172:
+	movh.a	a15,#@his(g_theta_h)
+	lea	a15,[a15]@los(g_theta_h)
+.L173:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d2,[a15]
+.L174:
+	j	.L4
+.L4:
+	ret
+.L75:
+	
+__getThetaHat_function_end:
+	.size	getThetaHat,__getThetaHat_function_end-getThetaHat
+.L28:
+	; End of function
+	
+	.sdecl	'.text.observer.getWHat',code,cluster('getWHat')
+	.sect	'.text.observer.getWHat'
+	.align	2
+	
+	.global	getWHat
+; Function getWHat
+.L12:
+getWHat:	.type	func
+	mul	d15,d4,#4
+.L179:
+	movh.a	a15,#@his(g_w_h)
+	lea	a15,[a15]@los(g_w_h)
+.L180:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d2,[a15]
+.L181:
+	j	.L5
+.L5:
+	ret
+.L77:
+	
+__getWHat_function_end:
+	.size	getWHat,__getWHat_function_end-getWHat
+.L33:
+	; End of function
+	
+	.sdecl	'.text.observer.getIHat',code,cluster('getIHat')
+	.sect	'.text.observer.getIHat'
+	.align	2
+	
+	.global	getIHat
+; Function getIHat
+.L14:
+getIHat:	.type	func
+	mul	d15,d4,#4
+.L186:
+	movh.a	a15,#@his(g_i_h)
+	lea	a15,[a15]@los(g_i_h)
+.L187:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d2,[a15]
+.L188:
+	j	.L6
+.L6:
+	ret
+.L79:
+	
+__getIHat_function_end:
+	.size	getIHat,__getIHat_function_end-getIHat
+.L38:
+	; End of function
+	
+	.sdecl	'.rodata.observer.J',data,rom,cluster('J')
+	.sect	'.rodata.observer.J'
+	.global	J
+	.align	2
+J:	.type	object
+	.size	J,4
+	.word	934236777
+	.sdecl	'.rodata.observer.B',data,rom,cluster('B')
+	.sect	'.rodata.observer.B'
+	.global	B
+	.align	2
+B:	.type	object
+	.size	B,4
+	.word	933741996
+	.sdecl	'.rodata.observer.Kt',data,rom,cluster('Kt')
+	.sect	'.rodata.observer.Kt'
+	.global	Kt
+	.align	2
+Kt:	.type	object
+	.size	Kt,4
+	.word	1026295857
+	.sdecl	'.rodata.observer.Kb',data,rom,cluster('Kb')
+	.sect	'.rodata.observer.Kb'
+	.global	Kb
+	.align	2
+Kb:	.type	object
+	.size	Kb,4
+	.word	1026295857
+	.sdecl	'.rodata.observer.R',data,rom,cluster('R')
+	.sect	'.rodata.observer.R'
+	.global	R
+	.align	2
+R:	.type	object
+	.size	R,4
+	.word	1090938470
+	.sdecl	'.rodata.observer.L',data,rom,cluster('L')
+	.sect	'.rodata.observer.L'
+	.global	L
+	.align	2
+L:	.type	object
+	.size	L,4
+	.word	1066695393
+	.sdecl	'.bss.observer.g_theta_h_chA',data,cluster('g_theta_h_chA')
+	.sect	'.bss.observer.g_theta_h_chA'
+	.global	g_theta_h_chA
+	.align	2
+g_theta_h_chA:	.type	object
+	.size	g_theta_h_chA,4
+	.space	4
+	.sdecl	'.bss.observer.g_w_h_chA',data,cluster('g_w_h_chA')
+	.sect	'.bss.observer.g_w_h_chA'
+	.global	g_w_h_chA
+	.align	2
+g_w_h_chA:	.type	object
+	.size	g_w_h_chA,4
+	.space	4
+	.sdecl	'.bss.observer.g_i_h_chA',data,cluster('g_i_h_chA')
+	.sect	'.bss.observer.g_i_h_chA'
+	.global	g_i_h_chA
+	.align	2
+g_i_h_chA:	.type	object
+	.size	g_i_h_chA,4
+	.space	4
+	.sdecl	'.bss.observer.g_theta_h',data,cluster('g_theta_h')
+	.sect	'.bss.observer.g_theta_h'
+	.global	g_theta_h
+	.align	2
+g_theta_h:	.type	object
+	.size	g_theta_h,8
+	.space	8
+	.sdecl	'.bss.observer.g_w_h',data,cluster('g_w_h')
+	.sect	'.bss.observer.g_w_h'
+	.global	g_w_h
+	.align	2
+g_w_h:	.type	object
+	.size	g_w_h,8
+	.space	8
+	.sdecl	'.bss.observer.g_i_h',data,cluster('g_i_h')
+	.sect	'.bss.observer.g_i_h'
+	.global	g_i_h
+	.align	2
+g_i_h:	.type	object
+	.size	g_i_h,8
+	.space	8
+	.sdecl	'.bss.observer.g_int_theta_h',data,cluster('g_int_theta_h')
+	.sect	'.bss.observer.g_int_theta_h'
+	.global	g_int_theta_h
+	.align	2
+g_int_theta_h:	.type	object
+	.size	g_int_theta_h,8
+	.space	8
+	.sdecl	'.bss.observer.g_int_w_h',data,cluster('g_int_w_h')
+	.sect	'.bss.observer.g_int_w_h'
+	.global	g_int_w_h
+	.align	2
+g_int_w_h:	.type	object
+	.size	g_int_w_h,8
+	.space	8
+	.sdecl	'.bss.observer.g_int_i_h',data,cluster('g_int_i_h')
+	.sect	'.bss.observer.g_int_i_h'
+	.global	g_int_i_h
+	.align	2
+g_int_i_h:	.type	object
+	.size	g_int_i_h,8
+	.space	8
+	.calls	'obrserveMotor','',0
+	.calls	'getThetaHat','',0
+	.calls	'getWHat','',0
+	.calls	'getIHat','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L16:
+	.word	597
+	.half	3
+	.word	.L17
+	.byte	4
+.L15:
+	.byte	1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L18
+.L70:
+	.byte	2
+	.byte	'float',0,4,4
+.L73:
+	.byte	2
+	.byte	'unsigned int',0,4,7,2
+	.byte	'short int',0,2,5,3
+	.byte	'__wchar_t',0,1,1,1
+	.word	202
+	.byte	3
+	.byte	'__size_t',0,1,1,1
+	.word	186
+	.byte	2
+	.byte	'int',0,4,5,3
+	.byte	'__ptrdiff_t',0,1,1,1
+	.word	250
+	.byte	4,1,5
+	.word	277
+	.byte	3
+	.byte	'__codeptr',0,1,1,1
+	.word	279
+	.byte	3
+	.byte	'size_t',0,2,24,25
+	.word	186
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.byte	'uint8',0,3,108,29
+	.word	317
+	.byte	2
+	.byte	'unsigned short int',0,2,7,3
+	.byte	'uint16',0,3,112,29
+	.word	348
+	.byte	2
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'uint32',0,3,116,29
+	.word	385
+	.byte	3
+	.byte	'sint16',0,3,129,1,29
+	.word	202
+	.byte	2
+	.byte	'long int',0,4,5,3
+	.byte	'sint32',0,3,134,1,29
+	.word	437
+	.byte	2
+	.byte	'long long int',0,8,5,3
+	.byte	'sint64',0,3,141,1,29
+	.word	465
+	.byte	3
+	.byte	'float32',0,3,170,1,29
+	.word	177
+	.byte	6
+	.byte	'void',0,5
+	.word	515
+	.byte	3
+	.byte	'pvoid',0,4,54,28
+	.word	521
+	.byte	3
+	.byte	'Ifx_TickTime',0,4,76,28
+	.word	465
+.L81:
+	.byte	7
+	.word	177
+.L82:
+	.byte	7
+	.word	177
+.L83:
+	.byte	7
+	.word	177
+.L84:
+	.byte	7
+	.word	177
+.L85:
+	.byte	7
+	.word	177
+.L86:
+	.byte	7
+	.word	177
+.L87:
+	.byte	8,8
+	.word	177
+	.byte	9,1,0,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L17:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,22,0,3,8,58,15,59,15,57,15
+	.byte	73,19,0,0,4,21,0,54,15,0,0,5,15,0,73,19,0,0,6,59,0,3,8,0,0,7,38,0,73,19,0,0,8,1,1,11,15,73,19,0,0,9,33
+	.byte	0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L18:
+	.word	.L90-.L89
+.L89:
+	.half	3
+	.word	.L92-.L91
+.L91:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.9.20\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	'C:\\\\myTC275\\\\automotive\\\\tmp\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0,0
+	.byte	'../src/app/observer/observer.c',0,0,0,0
+	.byte	'stddef.h',0,1,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'Ifx_Types.h',0,2,0,0,0
+.L92:
+.L90:
+	.sdecl	'.debug_info',debug,cluster('obrserveMotor')
+	.sect	'.debug_info'
+.L19:
+	.word	268
+	.half	3
+	.word	.L20
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L22,.L21
+	.byte	2
+	.word	.L15
+	.byte	3
+	.byte	'obrserveMotor',0,1,40,6,1,1,1
+	.word	.L8,.L69,.L7
+	.byte	4
+	.byte	'v_in',0,1,40,28
+	.word	.L70,.L71
+	.byte	5
+	.word	.L8,.L69
+	.byte	5
+	.word	.L8,.L72
+	.byte	6
+	.byte	'i',0,1,42,17
+	.word	.L73,.L74
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('obrserveMotor')
+	.sect	'.debug_abbrev'
+.L20:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('obrserveMotor')
+	.sect	'.debug_line'
+.L21:
+	.word	.L94-.L93
+.L93:
+	.half	3
+	.word	.L96-.L95
+.L95:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../src/app/observer/observer.c',0,0,0,0,0
+.L96:
+	.byte	5,19,7,0,5,2
+	.word	.L8
+	.byte	3,41,1,5,35,9
+	.half	.L88-.L8
+	.byte	1,5,18,9
+	.half	.L3-.L88
+	.byte	3,1,1,5,9,9
+	.half	.L97-.L3
+	.byte	1,5,18,9
+	.half	.L98-.L97
+	.byte	1,5,9,9
+	.half	.L99-.L98
+	.byte	1,5,18,9
+	.half	.L100-.L99
+	.byte	1,5,27,9
+	.half	.L101-.L100
+	.byte	1,5,26,9
+	.half	.L102-.L101
+	.byte	1,5,32,9
+	.half	.L103-.L102
+	.byte	1,5,30,9
+	.half	.L104-.L103
+	.byte	1,5,41,9
+	.half	.L105-.L104
+	.byte	1,5,36,9
+	.half	.L106-.L105
+	.byte	1,5,41,9
+	.half	.L107-.L106
+	.byte	1,5,34,9
+	.half	.L108-.L107
+	.byte	1,5,47,9
+	.half	.L109-.L108
+	.byte	1,5,51,9
+	.half	.L110-.L109
+	.byte	1,5,49,9
+	.half	.L111-.L110
+	.byte	1,5,60,9
+	.half	.L112-.L111
+	.byte	1,5,55,9
+	.half	.L113-.L112
+	.byte	1,5,60,9
+	.half	.L114-.L113
+	.byte	1,5,45,9
+	.half	.L115-.L114
+	.byte	1,5,73,9
+	.half	.L116-.L115
+	.byte	1,5,71,9
+	.half	.L117-.L116
+	.byte	1,5,64,9
+	.half	.L118-.L117
+	.byte	1,5,22,9
+	.half	.L119-.L118
+	.byte	1,5,14,9
+	.half	.L120-.L119
+	.byte	3,1,1,5,9,9
+	.half	.L121-.L120
+	.byte	1,5,14,9
+	.half	.L122-.L121
+	.byte	1,5,29,9
+	.half	.L123-.L122
+	.byte	1,5,20,9
+	.half	.L124-.L123
+	.byte	1,5,29,9
+	.half	.L125-.L124
+	.byte	1,5,18,9
+	.half	.L126-.L125
+	.byte	1,9
+	.half	.L127-.L126
+	.byte	3,1,1,5,9,9
+	.half	.L128-.L127
+	.byte	1,5,18,9
+	.half	.L129-.L128
+	.byte	1,5,9,9
+	.half	.L130-.L129
+	.byte	1,5,18,9
+	.half	.L131-.L130
+	.byte	1,5,26,9
+	.half	.L132-.L131
+	.byte	1,5,25,9
+	.half	.L133-.L132
+	.byte	1,5,30,9
+	.half	.L134-.L133
+	.byte	1,5,28,9
+	.half	.L135-.L134
+	.byte	1,5,39,9
+	.half	.L136-.L135
+	.byte	1,5,34,9
+	.half	.L137-.L136
+	.byte	1,5,39,9
+	.half	.L138-.L137
+	.byte	1,5,45,9
+	.half	.L139-.L138
+	.byte	1,5,50,9
+	.half	.L140-.L139
+	.byte	1,5,48,9
+	.half	.L141-.L140
+	.byte	1,5,59,9
+	.half	.L142-.L141
+	.byte	1,5,52,9
+	.half	.L143-.L142
+	.byte	1,5,43,9
+	.half	.L144-.L143
+	.byte	1,5,22,9
+	.half	.L145-.L144
+	.byte	1,5,14,9
+	.half	.L146-.L145
+	.byte	3,1,1,5,9,9
+	.half	.L147-.L146
+	.byte	1,5,14,9
+	.half	.L148-.L147
+	.byte	1,5,29,9
+	.half	.L149-.L148
+	.byte	1,5,20,9
+	.half	.L150-.L149
+	.byte	1,5,29,9
+	.half	.L151-.L150
+	.byte	1,5,18,9
+	.half	.L152-.L151
+	.byte	1,5,22,9
+	.half	.L153-.L152
+	.byte	3,1,1,5,9,9
+	.half	.L154-.L153
+	.byte	1,5,22,9
+	.half	.L155-.L154
+	.byte	1,5,9,9
+	.half	.L156-.L155
+	.byte	1,5,22,9
+	.half	.L157-.L156
+	.byte	1,5,34,9
+	.half	.L158-.L157
+	.byte	1,5,26,9
+	.half	.L159-.L158
+	.byte	1,5,18,9
+	.half	.L160-.L159
+	.byte	3,1,1,5,9,9
+	.half	.L161-.L160
+	.byte	1,5,18,9
+	.half	.L162-.L161
+	.byte	1,5,37,9
+	.half	.L163-.L162
+	.byte	1,5,24,9
+	.half	.L164-.L163
+	.byte	1,5,37,9
+	.half	.L165-.L164
+	.byte	1,5,22,9
+	.half	.L166-.L165
+	.byte	1,5,38,9
+	.half	.L167-.L166
+	.byte	3,122,1,5,35,9
+	.half	.L2-.L167
+	.byte	1,5,1,7,9
+	.half	.L72-.L2
+	.byte	3,8,1,7,9
+	.half	.L23-.L72
+	.byte	0,1,1
+.L94:
+	.sdecl	'.debug_ranges',debug,cluster('obrserveMotor')
+	.sect	'.debug_ranges'
+.L22:
+	.word	-1,.L8,0,.L23-.L8,0,0
+	.sdecl	'.debug_info',debug,cluster('getThetaHat')
+	.sect	'.debug_info'
+.L24:
+	.word	244
+	.half	3
+	.word	.L25
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L27,.L26
+	.byte	2
+	.word	.L15
+	.byte	3
+	.byte	'getThetaHat',0,1,52,9
+	.word	.L70
+	.byte	1,1,1
+	.word	.L10,.L75,.L9
+	.byte	4
+	.byte	'chn',0,1,52,28
+	.word	.L73,.L76
+	.byte	5
+	.word	.L10,.L75
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('getThetaHat')
+	.sect	'.debug_abbrev'
+.L25:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('getThetaHat')
+	.sect	'.debug_line'
+.L26:
+	.word	.L169-.L168
+.L168:
+	.half	3
+	.word	.L171-.L170
+.L170:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../src/app/observer/observer.c',0,0,0,0,0
+.L171:
+	.byte	5,21,7,0,5,2
+	.word	.L10
+	.byte	3,53,1,5,12,9
+	.half	.L172-.L10
+	.byte	1,5,21,9
+	.half	.L173-.L172
+	.byte	1,5,5,9
+	.half	.L174-.L173
+	.byte	1,5,1,9
+	.half	.L4-.L174
+	.byte	3,1,1,7,9
+	.half	.L28-.L4
+	.byte	0,1,1
+.L169:
+	.sdecl	'.debug_ranges',debug,cluster('getThetaHat')
+	.sect	'.debug_ranges'
+.L27:
+	.word	-1,.L10,0,.L28-.L10,0,0
+	.sdecl	'.debug_info',debug,cluster('getWHat')
+	.sect	'.debug_info'
+.L29:
+	.word	240
+	.half	3
+	.word	.L30
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L32,.L31
+	.byte	2
+	.word	.L15
+	.byte	3
+	.byte	'getWHat',0,1,57,9
+	.word	.L70
+	.byte	1,1,1
+	.word	.L12,.L77,.L11
+	.byte	4
+	.byte	'chn',0,1,57,24
+	.word	.L73,.L78
+	.byte	5
+	.word	.L12,.L77
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('getWHat')
+	.sect	'.debug_abbrev'
+.L30:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('getWHat')
+	.sect	'.debug_line'
+.L31:
+	.word	.L176-.L175
+.L175:
+	.half	3
+	.word	.L178-.L177
+.L177:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../src/app/observer/observer.c',0,0,0,0,0
+.L178:
+	.byte	5,17,7,0,5,2
+	.word	.L12
+	.byte	3,58,1,5,12,9
+	.half	.L179-.L12
+	.byte	1,5,17,9
+	.half	.L180-.L179
+	.byte	1,5,5,9
+	.half	.L181-.L180
+	.byte	1,5,1,9
+	.half	.L5-.L181
+	.byte	3,1,1,7,9
+	.half	.L33-.L5
+	.byte	0,1,1
+.L176:
+	.sdecl	'.debug_ranges',debug,cluster('getWHat')
+	.sect	'.debug_ranges'
+.L32:
+	.word	-1,.L12,0,.L33-.L12,0,0
+	.sdecl	'.debug_info',debug,cluster('getIHat')
+	.sect	'.debug_info'
+.L34:
+	.word	240
+	.half	3
+	.word	.L35
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L37,.L36
+	.byte	2
+	.word	.L15
+	.byte	3
+	.byte	'getIHat',0,1,62,9
+	.word	.L70
+	.byte	1,1,1
+	.word	.L14,.L79,.L13
+	.byte	4
+	.byte	'chn',0,1,62,24
+	.word	.L73,.L80
+	.byte	5
+	.word	.L14,.L79
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('getIHat')
+	.sect	'.debug_abbrev'
+.L35:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('getIHat')
+	.sect	'.debug_line'
+.L36:
+	.word	.L183-.L182
+.L182:
+	.half	3
+	.word	.L185-.L184
+.L184:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../src/app/observer/observer.c',0,0,0,0,0
+.L185:
+	.byte	5,17,7,0,5,2
+	.word	.L14
+	.byte	3,63,1,5,12,9
+	.half	.L186-.L14
+	.byte	1,5,17,9
+	.half	.L187-.L186
+	.byte	1,5,5,9
+	.half	.L188-.L187
+	.byte	1,5,1,9
+	.half	.L6-.L188
+	.byte	3,1,1,7,9
+	.half	.L38-.L6
+	.byte	0,1,1
+.L183:
+	.sdecl	'.debug_ranges',debug,cluster('getIHat')
+	.sect	'.debug_ranges'
+.L37:
+	.word	-1,.L14,0,.L38-.L14,0,0
+	.sdecl	'.debug_info',debug,cluster('J')
+	.sect	'.debug_info'
+.L39:
+	.word	192
+	.half	3
+	.word	.L40
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'J',0,1,18,15
+	.word	.L81
+	.byte	1,5,3
+	.word	J
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('J')
+	.sect	'.debug_abbrev'
+.L40:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('B')
+	.sect	'.debug_info'
+.L41:
+	.word	192
+	.half	3
+	.word	.L42
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'B',0,1,19,15
+	.word	.L82
+	.byte	1,5,3
+	.word	B
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('B')
+	.sect	'.debug_abbrev'
+.L42:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Kt')
+	.sect	'.debug_info'
+.L43:
+	.word	193
+	.half	3
+	.word	.L44
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'Kt',0,1,20,15
+	.word	.L83
+	.byte	1,5,3
+	.word	Kt
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Kt')
+	.sect	'.debug_abbrev'
+.L44:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Kb')
+	.sect	'.debug_info'
+.L45:
+	.word	193
+	.half	3
+	.word	.L46
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'Kb',0,1,21,15
+	.word	.L84
+	.byte	1,5,3
+	.word	Kb
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Kb')
+	.sect	'.debug_abbrev'
+.L46:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('R')
+	.sect	'.debug_info'
+.L47:
+	.word	192
+	.half	3
+	.word	.L48
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'R',0,1,22,15
+	.word	.L85
+	.byte	1,5,3
+	.word	R
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('R')
+	.sect	'.debug_abbrev'
+.L48:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('L')
+	.sect	'.debug_info'
+.L49:
+	.word	192
+	.half	3
+	.word	.L50
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'L',0,1,23,15
+	.word	.L86
+	.byte	1,5,3
+	.word	L
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('L')
+	.sect	'.debug_abbrev'
+.L50:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_theta_h_chA')
+	.sect	'.debug_info'
+.L51:
+	.word	204
+	.half	3
+	.word	.L52
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'g_theta_h_chA',0,1,25,9
+	.word	.L70
+	.byte	1,5,3
+	.word	g_theta_h_chA
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_theta_h_chA')
+	.sect	'.debug_abbrev'
+.L52:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_w_h_chA')
+	.sect	'.debug_info'
+.L53:
+	.word	200
+	.half	3
+	.word	.L54
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'g_w_h_chA',0,1,26,9
+	.word	.L70
+	.byte	1,5,3
+	.word	g_w_h_chA
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_w_h_chA')
+	.sect	'.debug_abbrev'
+.L54:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_i_h_chA')
+	.sect	'.debug_info'
+.L55:
+	.word	200
+	.half	3
+	.word	.L56
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'g_i_h_chA',0,1,27,9
+	.word	.L70
+	.byte	1,5,3
+	.word	g_i_h_chA
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_i_h_chA')
+	.sect	'.debug_abbrev'
+.L56:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_theta_h')
+	.sect	'.debug_info'
+.L57:
+	.word	200
+	.half	3
+	.word	.L58
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'g_theta_h',0,1,29,9
+	.word	.L87
+	.byte	1,5,3
+	.word	g_theta_h
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_theta_h')
+	.sect	'.debug_abbrev'
+.L58:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_w_h')
+	.sect	'.debug_info'
+.L59:
+	.word	196
+	.half	3
+	.word	.L60
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'g_w_h',0,1,30,9
+	.word	.L87
+	.byte	1,5,3
+	.word	g_w_h
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_w_h')
+	.sect	'.debug_abbrev'
+.L60:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_i_h')
+	.sect	'.debug_info'
+.L61:
+	.word	196
+	.half	3
+	.word	.L62
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'g_i_h',0,1,31,9
+	.word	.L87
+	.byte	1,5,3
+	.word	g_i_h
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_i_h')
+	.sect	'.debug_abbrev'
+.L62:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_int_theta_h')
+	.sect	'.debug_info'
+.L63:
+	.word	204
+	.half	3
+	.word	.L64
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'g_int_theta_h',0,1,33,9
+	.word	.L87
+	.byte	1,5,3
+	.word	g_int_theta_h
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_int_theta_h')
+	.sect	'.debug_abbrev'
+.L64:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_int_w_h')
+	.sect	'.debug_info'
+.L65:
+	.word	200
+	.half	3
+	.word	.L66
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'g_int_w_h',0,1,34,9
+	.word	.L87
+	.byte	1,5,3
+	.word	g_int_w_h
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_int_w_h')
+	.sect	'.debug_abbrev'
+.L66:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_int_i_h')
+	.sect	'.debug_info'
+.L67:
+	.word	200
+	.half	3
+	.word	.L68
+	.byte	4,1
+	.byte	'../src/app/observer/observer.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\myTC275\\automotive\\tmp\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'g_int_i_h',0,1,35,9
+	.word	.L87
+	.byte	1,5,3
+	.word	g_int_i_h
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_int_i_h')
+	.sect	'.debug_abbrev'
+.L68:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('getIHat')
+	.sect	'.debug_loc'
+.L80:
+	.word	-1,.L14,0,.L79-.L14
+	.half	1
+	.byte	84
+	.word	0,0
+.L13:
+	.word	-1,.L14,0,.L79-.L14
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('getThetaHat')
+	.sect	'.debug_loc'
+.L76:
+	.word	-1,.L10,0,.L75-.L10
+	.half	1
+	.byte	84
+	.word	0,0
+.L9:
+	.word	-1,.L10,0,.L75-.L10
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('getWHat')
+	.sect	'.debug_loc'
+.L78:
+	.word	-1,.L12,0,.L77-.L12
+	.half	1
+	.byte	84
+	.word	0,0
+.L11:
+	.word	-1,.L12,0,.L77-.L12
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('obrserveMotor')
+	.sect	'.debug_loc'
+.L74:
+	.word	-1,.L8,.L88-.L8,.L69-.L8
+	.half	1
+	.byte	82
+	.word	0,0
+.L7:
+	.word	-1,.L8,0,.L69-.L8
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L71:
+	.word	-1,.L8,0,.L69-.L8
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L189:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('obrserveMotor')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L189,.L8,.L69-.L8
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('getThetaHat')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L189,.L10,.L75-.L10
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('getWHat')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L189,.L12,.L77-.L12
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('getIHat')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L189,.L14,.L79-.L14
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	; Module end

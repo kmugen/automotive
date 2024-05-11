@@ -49,6 +49,8 @@ Libraries/iLLD/TC27D/Tricore/Vadc/Std \
 Libraries/iLLD/TC27D/Tricore/_Impl \
 Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling \
 Libraries/iLLD/TC27D/Tricore/_PinMap \
+src/app/lpf \
+src/app/observer \
 src/app/pid \
 src/app/scheduler \
 src/hardware/encoder \
